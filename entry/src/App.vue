@@ -1,5 +1,22 @@
 <template>
   <div id="app">
+    <div class="container is-fluid">
+      <div class="notification">
+        Earth Observation data. Cryptographically verifiable and distributed.
+        <a href="https://twitter.com/Starmesh1">
+          <b-button 
+            icon-left="twitter" 
+            size="is-large">
+          </b-button>
+        </a>
+        <b-button
+          icon-pack="fab"
+          icon-left="galactic-senate"
+          size="is-large">
+          <font-awesome-icon :icon="['fab', 'galactic-senate']" />
+        </b-button>
+      </div>
+    </div>
     <router-view id="router-view" />
   </div>
 </template>
