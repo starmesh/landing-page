@@ -1,14 +1,27 @@
 <template>
-  <div class="hello">
-
+  <div class="video">
+    <video-background 
+      :elementId="'header-background-video'"
+      :mp4Source="require('../assets/fly_by_earth.mp4')" 
+    >
+    <div slot="overlay-content" class="overlay-content">
+      <Social/>
+    </div>
+    </video-background>
+    <!-- <img src="../assets/logo.png"> -->
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
+import Social from './Social.vue';
 
-@Component
-export default class HelloWorld extends Vue {
+@Component({
+  components: {
+    Social,
+  },
+})
+export default class Video extends Vue {
   @Prop() private msg!: string;
 }
 </script>

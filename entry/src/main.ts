@@ -3,15 +3,19 @@ import App from './App.vue'
 import router from './router'
 import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
+import 'vue-video-section/dist/vue-video-section.css'
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
 import { faGalacticSenate } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import videoBg from 'vue-video-section'; 
 
-library.add(faTrash, faGalacticSenate);
+
+Vue.component('video-background', videoBg);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
+library.add(faTrash, faGalacticSenate);
 Vue.use(Buefy, {
 })
 
