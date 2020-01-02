@@ -10,7 +10,6 @@ import { faGalacticSenate } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import videoBg from 'vue-video-section'; 
 
-
 Vue.component('video-background', videoBg);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
