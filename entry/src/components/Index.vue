@@ -1,24 +1,38 @@
 <template>
   <div class="video">
-    <video-background 
-      :elementId="'header-background-video'"
-      :mp4Source="require('../assets/fly_by_earth.mp4')" 
-    >
-    <div slot="overlay-content" class="overlay-content">
-      <Social/>
-    </div>
-    </video-background>
     <!-- <img src="../assets/logo.png"> -->
+    <div class="columns">
+      <div class="column">
+        <video-background 
+          :elementId="'header-background-video'"
+          :mp4Source="require('../assets/fly_by_earth.mp4')" 
+        >
+        <div slot="overlay-content" class="overlay-content">
+          <Social/>
+        </div>
+        </video-background>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-4 is-offset-4">
+        <MooSend />
+      </div>
+    </div>
+    <Footer />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
 import Social from './Social.vue';
+import MooSend from './MooSend.vue';
+import Footer from './Footer.vue';
 
 @Component({
   components: {
     Social,
+    MooSend,
+    Footer
   },
 })
 export default class Video extends Vue {

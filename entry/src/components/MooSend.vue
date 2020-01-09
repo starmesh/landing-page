@@ -1,0 +1,32 @@
+<template>
+  <div class="MooSend">
+    <form action="https://app.moosend.com/subscribe/87930c03-8f8b-4964-97a9-4dbd38a7ab13" 
+      method="post" id="ms-sub-form" target="_blank">
+    <div>
+      <b-field 
+        label-position="on-border"
+        label="Email" >
+        <b-input type="email" name="ms-email" id="email" maxlength="64" required>
+        </b-input>
+      </b-field>
+      <b-button native-type="submit" class="button is-primary">Subscribe</b-button>
+    </div>
+    </form>
+  </div>
+</template>
+
+<script lang="ts">
+import { Component, Prop, Vue } from 'vue-property-decorator';
+
+@Component
+export default class MooSend extends Vue {}
+</script>
+
+<style scoped>
+.input {
+  background-color: #252429;
+}
+.label {
+  background-color: #252429;
+}
+</style>
