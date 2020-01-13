@@ -4,7 +4,7 @@
       :elementId="'header-background-video'"
       :ref="'header-background-video'"
       :mp4Source="require('../assets/fly_by_earth.mp4')" 
-      :posterSource="require('../assets/poster_flyby.png')"
+      :posterSource="require('../assets/poster_flyby.jpg')"
       :mobileBreakpoint="992"
       :desktopHeight="550"
       :mobileHeight="450"
