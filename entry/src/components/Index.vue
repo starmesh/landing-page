@@ -1,16 +1,8 @@
 <template>
-  <div class="video">
-    <!-- <img src="../assets/logo.png"> -->
+  <div class="index">
     <div class="columns">
       <div class="column">
-        <video-background 
-          :elementId="'header-background-video'"
-          :mp4Source="require('../assets/fly_by_earth.mp4')" 
-        >
-        <div slot="overlay-content" class="overlay-content">
-          <Social/>
-        </div>
-        </video-background>
+        <Video />
       </div>
     </div>
     <div class="columns">
@@ -24,36 +16,26 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
-import Social from './Social.vue';
 import MooSend from './MooSend.vue';
 import Footer from './Footer.vue';
+import Video from './Video.vue';
 
 @Component({
   components: {
-    Social,
     MooSend,
-    Footer
+    Footer,
+    Video
   },
 })
-export default class Video extends Vue {
-  @Prop() private msg!: string;
-}
+export default class Index extends Vue {}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
+<style>
+.index {
+  background-color: #252429;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+html {
+  background-color: #252429;
 }
 </style>

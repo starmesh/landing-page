@@ -8,11 +8,11 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import Index from './components/Index.vue';
+// import Index from './components/Index.vue';
 
 @Component({
   components: {
-    Index,
+    // Index,
   },
 })
 export default class App extends Vue {}

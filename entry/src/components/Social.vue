@@ -7,10 +7,10 @@
         icon-left="twitter">
       </b-button>
     </a>
-    <b-button
+    <!-- <b-button
       icon-pack="fab"
       icon-left="galactic-senate">
-    </b-button>
+    </b-button> -->
   </div>
 </template>
 

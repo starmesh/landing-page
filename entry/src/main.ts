@@ -8,10 +8,9 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
 import { faGalacticSenate } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-import videoBg from 'vue-video-section'; 
+import VideoBackground from 'vue-video-section'; 
 
-Vue.component('video-background', videoBg);
-
+Vue.component('video-background', VideoBackground);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 library.add(faTrash, faGalacticSenate);
