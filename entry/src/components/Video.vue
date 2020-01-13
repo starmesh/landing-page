@@ -28,15 +28,6 @@
               <div>Backbone of data distribution</div>
             </div>
           </div>
-
-          <!-- <div class="row justify-content-center">
-            <div class="col-lg-6">
-              <div class="list-group">
-                <a href="https://github.com/johndatserakis/vue-video-section" class="list-group-item list-group-item-action" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-                <a href="https://www.npmjs.com/package/vue-video-section" class="list-group-item list-group-item-action" target="_blank" rel="noopener noreferrer">View on NPM</a>
-              </div>
-            </div>
-          </div> -->
         </div>
     </div>
     </video-background>

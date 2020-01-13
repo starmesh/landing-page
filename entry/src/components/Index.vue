@@ -33,9 +33,6 @@ export default class Index extends Vue {}
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
 .index {
-  background-color: #252429;
-}
-html {
-  background-color: #252429;
+  background-color: darkgray;
 }
 </style>

@@ -23,10 +23,12 @@ export default class MooSend extends Vue {}
 </script>
 
 <style scoped>
-.input {
-  background-color: #252429;
+input#email.input {
+  background-color: #000000;
+  color: white;
 }
-.label {
+/* .label {
+  color: #ffffff;
   background-color: #252429;
-}
+*/
 </style>
