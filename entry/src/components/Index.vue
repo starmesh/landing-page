@@ -1,15 +1,7 @@
 <template>
   <div class="index">
-    <div class="columns">
-      <div class="column">
-        <Video />
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-4 is-offset-4">
-        <MooSend />
-      </div>
-    </div>
+    <Video />
+    <MooSend />
     <Footer />
   </div>
 </template>
@@ -19,6 +11,7 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 import MooSend from './MooSend.vue';
 import Footer from './Footer.vue';
 import Video from './Video.vue';
+import AppFooter from './AppFooter.vue'
 
 @Component({
   components: {
@@ -27,12 +20,12 @@ import Video from './Video.vue';
     Video
   },
 })
-export default class Index extends Vue {}
+export default class Index extends Vue { }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-.index {
-  background-color: darkgray;
-}
+/* .index {
+  background-color: #fafafa;
+} */
 </style>

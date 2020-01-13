@@ -25,7 +25,7 @@
         <div class="container py-4">
           <div class="row justify-content-center mb-4">
             <div class="col-lg-6">
-              <div>Backbone of data distribution</div>
+              <div class="video-motto">Backbone of data distribution</div>
             </div>
           </div>
         </div>
@@ -75,6 +75,11 @@ export default class Video extends Vue {}
   h3 {
     color: #fff;
   }
+}
+
+.video-motto {
+  font-weight: bold;
+  color: white;
 }
 </style>
 
