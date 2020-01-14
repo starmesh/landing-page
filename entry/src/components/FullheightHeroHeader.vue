@@ -1,0 +1,82 @@
+<template>
+  <div class="FullheightHeroHeader">
+    <section class="hero is-primary is-fullheight header-image">
+        <div class="hero-head">
+            <header class="navbar">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="https://starmesh.xyz">
+                        <img src="@/assets/img/starmesh_logo_dec_2019.png" alt="StarMesh logo">
+                        <p>StarMesh</p>
+                    </a>
+
+                    <div class="navbar-burger" v-on:click="showNav = !showNav" v-bind:class="{ 'is-active' : showNav }">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="navbar-menu" v-bind:class="{ 'is-active' : showNav }">
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="https://twitter.com/StarMesh1">twitter</a>
+                        <a class="navbar-item" href="#">team</a>
+                        <a class="navbar-item" href="#">about</a>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+        <!-- Hero content: will be in the middle -->
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title">
+                    StarMesh
+                </h1>
+                <h2 class="subtitle">
+                    Earth Observation data.
+                </h2>
+                <h2 class="subtitle">
+                    Cryptographically verifiable and distributed.
+                </h2>
+                
+            </div>
+        </div>
+        <!-- Hero footer: will stick at the bottom -->
+        <!-- <div class="hero-foot">
+            <nav class="tabs is-boxed is-fullwidth">
+                <div class="container">
+                    <ul>
+                        <li class="is-active"><a>Overview</a></li>
+                        <li><a>Modifiers</a></li>
+                        <li><a>Grid</a></li>
+                        <li><a>Elements</a></li>
+                        <li><a>Components</a></li>
+                        <li><a>Layout</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div> -->
+    </section>
+  </div>
+</template>
+
+<script lang="ts">
+import { Component, Prop, Vue } from 'vue-property-decorator';
+
+@Component
+export default class FullheightHeroHeader extends Vue {
+    private showNav: boolean = false;
+}
+</script>
+
+<style scoped>
+/* https://www.esa.int/ESA_Multimedia/Images/2019/10/Korean_Peninsula */
+ .header-image {
+    background-image: url("../assets/img/esa/Korean_Peninsula.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+}
+
+</style>

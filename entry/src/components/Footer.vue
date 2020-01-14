@@ -20,6 +20,7 @@
           <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. 
           Follow Us <a href="https://twitter.com/StarMesh1">twitter.com/StarMesh1</a>.
         </p>
+        <p>📸 Images or videos released by <a href="https://www.esa.int/ESA_Multimedia/Copyright_Notice_Images">ESA under Creative Commons Attribution-ShareAlike 3.0 IGO (CC BY-SA 3.0 IGO) Licence</a></p>
       </div>
     </footer>
 </template>
@@ -61,10 +62,10 @@ a.social-icon:hover {
   background-color: #252429;
 }
 
-  .social-icons {
-    font-size: 2.6em;
-    padding: 0.1em;
-  }
+.social-icons {
+  font-size: 2.6em;
+  padding: 0.1em;
+}
 
 .social-icons:hover {
   cursor: pointer;

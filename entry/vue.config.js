@@ -5,5 +5,6 @@ module.exports = {
     themeColor: '#4A4A4A',
     msTileColor: '#4A4A4A',
 
-  }
+  },
+  publicPath: '/'
 }
