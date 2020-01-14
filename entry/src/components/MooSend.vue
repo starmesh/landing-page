@@ -1,17 +1,22 @@
 <template>
   <div class="moosend-email-wrapper">
-    <form action="https://app.moosend.com/subscribe/87930c03-8f8b-4964-97a9-4dbd38a7ab13" 
-      method="post" id="ms-sub-form" target="_blank">
-    <div>
-      <b-field 
-        label-position="on-border"
-        label="Email" >
-        <b-input type="email" name="ms-email" id="email" maxlength="64" required placeholder="example@yourcompany.com">
-        </b-input>
-      </b-field>
-      <b-button native-type="submit" class="button is-primary">Subscribe</b-button>
+    <div class="columns">
+      <div class="column is-4 is-offset-4">
+        <p class="form-title">Interested and want to stay keep in touch?</p>
+        <form action="https://app.moosend.com/subscribe/87930c03-8f8b-4964-97a9-4dbd38a7ab13" 
+          method="post" id="ms-sub-form" target="_blank">
+        <div>
+          <b-field 
+            label-position="on-border"
+            label="Email" >
+            <b-input type="email" name="ms-email" id="email" maxlength="64" required placeholder="example@yourcompany.com">
+            </b-input>
+          </b-field>
+          <b-button native-type="submit" class="button is-primary">Subscribe for updates</b-button>
+        </div>
+        </form>
+      </div>
     </div>
-    </form>
   </div>
 </template>
 
@@ -23,17 +28,12 @@ export default class MooSend extends Vue {}
 </script>
 
 <style scoped>
-input#email.input {
-  background-color: #000000;
-  color: white;
-}
-
 .moosend-email-wrapper {
   background-color: #fafafa;
   padding: 1em;
 }
-/* .label {
-  color: #ffffff;
-  background-color: #252429;
-*/
+.form-title {
+  padding: 2em;
+}
+
 </style>
