@@ -2,9 +2,12 @@
   <div class="index">
     <FullheightHeroHeader />
     <FullheightHero 
-      img="../assets/img/esa/Baltic_blooms.jpg"/>
-    <FullheightHero2 
-      img="../assets/img/esa/Baltic_blooms.jpg"/>
+      img="Baltic_blooms"
+      />
+    <FullheightHero 
+      img="Tromsoe_Norway"
+      />
+      
     <Video />
     <MooSend />
     <Footer />

@@ -35,6 +35,7 @@ export default class FullheightHero2 extends Vue {}
     background-attachment: fixed;
     background-size: cover;
     background-color: #999;
+    opacity: 0.75;
 }
 
 </style>
