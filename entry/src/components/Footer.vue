@@ -3,7 +3,7 @@
     <footer class="footer">
       <div class="content">
       <div class="columns">
-        <div class="column is-4">
+        <div class="column is-4 is-offset-4">
         <h1>🛰 Add us on socials 🌍</h1>
         <span class="social-icons" v-for="item in socials" :key="item.url">
           <a :href="item.url" target="_blank" rel="noopener" class="social-icon" aria-hidden="true">
@@ -39,7 +39,7 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 @Component
 export default class Footer extends Vue {
   private socials = [
-        { url: 'https://github.com/Progressbar', title: 'Github', icon: faGithub },
+        { url: 'https://github.com/starmesh', title: 'Github', icon: faGithub },
         { url: 'https://twitter.com/StarMesh1', title: 'Twitter', icon: faTwitter }
       ];
 }
