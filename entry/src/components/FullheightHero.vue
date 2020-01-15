@@ -8,17 +8,17 @@
         <div class="container has-text-centered">
           <div class="columns" >
             <div class="column is-5">
-                <div class="box">
-                    <article class="media">
-                        <div class="media-content">
-                            <div class="content">
-                                <p v-for="(t, index) in text" :key="index">
-                                    <span v-html="t"></span>
-                                </p>
-                            </div>
-                        </div>
-                    </article>
-                </div>
+              <div class="box">
+                <article class="media">
+                  <div class="media-content">
+                    <div class="content">
+                      <p v-for="(t, index) in text" :key="index">
+                        <span v-html="t"></span>
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
             </div>
           </div>
         </div>

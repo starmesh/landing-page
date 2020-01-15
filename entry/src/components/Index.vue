@@ -55,7 +55,7 @@ export default class Index extends Vue {
       'How do you unlock your economic potential today?',
       'Seeling your data B2B? - uneffective.',
       'Franchise fees? - takes time to scale',
-      'Subscription fees? - infrasturcture costs and setup',
+      'Subscription fees? - infrastructure costs and setup',
       'Licensing. - big upfront charges.'
     ],
     second: [
@@ -70,15 +70,15 @@ export default class Index extends Vue {
       'We want to embrace various web3 revenue models.',
       'There are numerous opportunities to leverage sales of your value-added datasets',
       'We are aware of subscription as recurring value over time. Membership fees, Streaming Money, various Revenue Share models - Percentage Fee % or Income Share.',
-      'With us you can have Continuos Funding Models like Curved Bonding and Continuos Organizations',
+      'With us, you can have Continuos Funding Models like Curved Bonding and Continuous Organizations',
       'Our tech stack in PoC phase includes <b>Rust, Substrate (Polkadot Network underlayer), IPFS, Filecoin and DAT.</b>',
-      'We are working on curated interface for general customers. Explorer for variety of data like <b>SAR, Optical and Value-added data</b>.'
+      'We are working on the curated interface for general customers. Explorer for variety of data like <b>SAR, Optical and Value-added data</b>.'
     ],
     fourth: [
       'Possibility of higher usage of your data-sets',
-      'Layer for data exchange within fee market, various data vendor on platform. User will benefit on combination of meta data vehicle',
+      'Layer for data exchange within the fee market, various data vendor on platform. User will benefit on the combination of metadata vehicle',
       '<b>Data Accessibility UX</b>',
-      'ML/AI algos will gain new opportunities. Data prepared for ML/AI - it takes 80% of time to prepare data set for ML',
+      'ML/AI algorithms will gain new opportunities. Data prepared for ML/AI - it takes 80% of the time to prepare data set for ML',
       'Building blocks for other apps. Easier mashups with data-sets. Smooth information sharing thanks to interoperability across protocols. Data robustness and integrity with intermediaries',
     ],
     fifth: [
@@ -87,7 +87,7 @@ export default class Index extends Vue {
       '<b>Survelliance</b>',
       'Help to identify Illegal Logging and Charcoal Trafficking. Illegal Unreported and Unregulated Fishing and Illegal Mining.',
       '<b>Early Disaster Warnings</b>',
-      'Issue Early Disaster Warnings, Real-time monitoring of river streams within low maintance to improve DAM safety.'
+      'Issue Early Disaster Warnings, Real-time monitoring of river streams within low maintenance to improve DAM safety.'
     ]
   }
 }

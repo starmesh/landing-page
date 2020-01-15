@@ -1,0 +1,5 @@
+root = true
+
+[*.vue]
+indent_size = tab
+indent_size = 2
