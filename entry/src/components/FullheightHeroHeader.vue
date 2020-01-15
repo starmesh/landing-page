@@ -40,10 +40,10 @@
                     StarMesh
                 </h1>
                 <h2 class="subtitle">
-                    Earth Observation data.
+                    Earth Observation meta-vehicle.
                 </h2>
                 <h2 class="subtitle">
-                    Cryptographically verifiable and distributed.
+                    Cryptographically verifiable and distributed data layer.
                 </h2>
                 
             </div>

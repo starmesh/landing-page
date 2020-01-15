@@ -13,7 +13,7 @@
                         <div class="media-content">
                             <div class="content">
                                 <p v-for="(t, index) in text" :key="index">
-                                    {{ t }}
+                                    <span v-html="t"></span>
                                 </p>
                             </div>
                         </div>
