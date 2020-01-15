@@ -21,6 +21,11 @@
           Follow Us <a href="https://twitter.com/StarMesh1">twitter.com/StarMesh1</a>.
         </p>
         <p>📸 Images or videos released by <a href="https://www.esa.int/ESA_Multimedia/Copyright_Notice_Images">ESA under Creative Commons Attribution-ShareAlike 3.0 IGO (CC BY-SA 3.0 IGO) Licence</a></p>
+        <span v-for="item in esa_source" :key="item.url">
+          <a :href="item.url" target="_blank" rel="noopener" aria-hidden="true">
+            📸 {{ item.name }}  
+          </a>
+        </span>
       </div>
     </footer>
 </template>
@@ -43,6 +48,13 @@ export default class Footer extends Vue {
         { url: 'https://github.com/starmesh', title: 'Github', icon: faGithub },
         { url: 'https://twitter.com/StarMesh1', title: 'Twitter', icon: faTwitter }
       ];
+  private esa_source = [
+        { url: 'https://www.esa.int/ESA_Multimedia/Images/2018/07/Shanghai_China', name: 1},
+        { url: 'https://www.esa.int/ESA_Multimedia/Images/2019/12/Baltic_blooms', name: 2},
+        { url: 'https://www.esa.int/ESA_Multimedia/Images/2018/07/Reykjavik_Iceland', name: 3},
+        { url: 'https://www.esa.int/ESA_Multimedia/Images/2019/10/Korean_Peninsula', name: 4},
+        { url: 'https://www.esa.int/ESA_Multimedia/Images/2019/12/Tromsoe_Norway', name: 5},
+  ]
 }
 </script>
 

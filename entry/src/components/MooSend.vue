@@ -7,8 +7,8 @@
           method="post" id="ms-sub-form" target="_blank">
         <div>
           <b-field 
-            label-position="on-border"
-            label="Email" >
+
+            >
             <b-input type="email" name="ms-email" id="email" maxlength="64" required placeholder="example@yourcompany.com">
             </b-input>
           </b-field>

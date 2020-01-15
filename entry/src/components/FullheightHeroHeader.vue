@@ -17,9 +17,17 @@
                 </div>
                 <div class="navbar-menu" v-bind:class="{ 'is-active' : showNav }">
                     <div class="navbar-end">
-                        <a class="navbar-item" href="https://twitter.com/StarMesh1">twitter</a>
+                        <a class="navbar-item" href="#">tech</a>
                         <a class="navbar-item" href="#">team</a>
                         <a class="navbar-item" href="#">about</a>
+                        <span class="navbar-item">
+                            <a class="button is-primary is-inverted">
+                                <span class="icon">
+                                <i class="fab fa-twitter"></i>
+                                </span>
+                                <span>Follow</span>
+                            </a>
+                        </span>
                     </div>
                 </div>
             </header>
