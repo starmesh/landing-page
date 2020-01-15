@@ -6,7 +6,7 @@
                 <div class="navbar-brand">
                     <a class="navbar-item" href="https://starmesh.xyz">
                         <img src="@/assets/img/starmesh_logo_dec_2019.png" alt="StarMesh logo">
-                        <p>StarMesh</p>
+                        <p>- StarMesh</p>
                     </a>
 
                     <div class="navbar-burger" v-on:click="showNav = !showNav" v-bind:class="{ 'is-active' : showNav }">
@@ -71,7 +71,7 @@ export default class FullheightHeroHeader extends Vue {
 <style scoped>
 /* https://www.esa.int/ESA_Multimedia/Images/2019/10/Korean_Peninsula */
  .header-image {
-    background-image: url("../assets/img/esa/Korean_Peninsula.jpg");
+    background-image: url("../assets/img/esa/Baltic_blooms.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;

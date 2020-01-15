@@ -2,12 +2,14 @@
   <div class="index">
     <FullheightHeroHeader />
     <FullheightHero 
-      img="Baltic_blooms"
+      img="Korean_Peninsula"
       />
     <FullheightHero 
       img="Tromsoe_Norway"
       />
-      
+    <FullheightHero 
+      img="Reykjavik_Iceland"
+      />
     <Video />
     <MooSend />
     <Footer />
@@ -21,7 +23,6 @@ import Footer from './Footer.vue';
 import Video from './Video.vue';
 import FullheightHeroHeader from './FullheightHeroHeader.vue';
 import FullheightHero from './FullheightHero.vue';
-import FullheightHero2 from './FullheightHero2.vue';
 
 @Component({
   components: {
@@ -30,7 +31,6 @@ import FullheightHero2 from './FullheightHero2.vue';
     Video,
     FullheightHeroHeader,
     FullheightHero,
-    FullheightHero2
   },
 })
 export default class Index extends Vue { }
