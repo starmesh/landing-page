@@ -1,10 +1,9 @@
 module.exports = {
   productionSourceMap: false,
   pwa: {
-    name: 'StarMesh Entry',
-    themeColor: '#4A4A4A',
-    msTileColor: '#4A4A4A',
-
+    name: 'StarMesh EO meta-vehicle',
+    msTileColor: '#1a1a1a',
+    themeColor: '#1a1a1a',
   },
   publicPath: '/'
 }

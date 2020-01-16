@@ -33,7 +33,6 @@
             </header>
         </div>
 
-        <!-- Hero content: will be in the middle -->
         <div class="hero-body">
             <div class="container has-text-centered">
                 <h1 class="title">
@@ -79,7 +78,6 @@ export default class FullheightHeroHeader extends Vue {
 </script>
 
 <style scoped>
-/* https://www.esa.int/ESA_Multimedia/Images/2019/10/Korean_Peninsula */
  .header-image {
     background-image: url("../assets/img/esa/Baltic_blooms.jpg");
     background-position: center center;

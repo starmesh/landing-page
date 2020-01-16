@@ -7,7 +7,7 @@
       <div class="hero-body">
         <div class="container has-text-centered">
           <div class="columns" >
-            <div class="column is-3">
+            <div class="column is-4">
               <div class="box">
                 <article class="media">
                   <div class="media-content">
@@ -39,11 +39,9 @@ export default class FullheightHero extends Vue {
       return require(`../assets/img/esa/${this.img}.jpg`);
     }
 }
-// background-image: url("../assets/img/esa/Baltic_blooms.jpg");
 </script>
 
-<style>
-/* https://www.esa.int/ESA_Multimedia/Images/2019/12/Baltic_blooms */
+<style scoped>
 .header-image {
   background-position: center center;
   background-repeat: no-repeat;
@@ -57,7 +55,7 @@ export default class FullheightHero extends Vue {
     text-shadow: 1px 1px 0px #1a1a1a;
 }
 
-.content h3 {
+.content >>> h3 {
     color: aliceblue;
 } 
 </style>

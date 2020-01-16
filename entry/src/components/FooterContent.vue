@@ -2,7 +2,7 @@
   <div class="footerContent">
     <div class="content">
       <div class="columns">
-        <div class="column is-4 is-offset-4">
+        <div class="column is-6 is-offset-3">
         <h1>🛰 Add us on socials 🌍</h1>
         <span class="social-icons" v-for="item in socials" :key="item.url">
           <a :href="item.url" target="_blank" rel="noopener" class="social-icon" aria-hidden="true">
@@ -47,6 +47,7 @@ export default class FooterContent extends Vue {
         { url: 'https://github.com/starmesh', title: 'Github', icon: faGithub },
         { url: 'https://twitter.com/StarMesh1', title: 'Twitter', icon: faTwitter }
       ];
+  
   private esa_source = [
         { url: 'https://www.esa.int/ESA_Multimedia/Images/2018/07/Shanghai_China', name: 1},
         { url: 'https://www.esa.int/ESA_Multimedia/Images/2019/12/Baltic_blooms', name: 2},
@@ -57,7 +58,6 @@ export default class FooterContent extends Vue {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 a.social-icon {
   color: white;

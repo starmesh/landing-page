@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+import VueMeta from 'vue-meta'
 import router from './router'
 import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
@@ -14,8 +15,9 @@ Vue.component('video-background', VideoBackground);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 library.add(faTrash, faGalacticSenate, faTwitter);
-Vue.use(Buefy, {
-})
+
+Vue.use(Buefy, {})
+Vue.use(VueMeta)
 
 Vue.config.productionTip = false
 

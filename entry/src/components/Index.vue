@@ -14,6 +14,10 @@
       :text="text.second"
       />
     <FullheightHero 
+      img="Tromsoe_Norway"
+      :text="text.secondA"
+      />
+    <FullheightHero 
       img="Reykjavik_Iceland"
       :text="text.third"
       />
@@ -44,8 +48,17 @@ import FullheightHero from './FullheightHero.vue';
     FullheightHeroHeader,
     FullheightHero,
   },
+  metaInfo() {
+    return {
+      title: 'StarMesh - Earth Observation meta-vehicle',
+      titleTemplate: ''
+    }
+  },
 })
 export default class Index extends Vue { 
+  private metaInfo = {
+   title: 'StarMesh - Earth Observation meta-vehicle',
+ }
   private text = {
     first: [
       '<h3>We are trying to solve discoverability of data sets.</h3>',
@@ -70,6 +83,13 @@ export default class Index extends Vue {
       'All under one simple <b>GraphQL</b> interface for your application with payment gateway, in web2.0 speak.',
       'Our aim is to have cryptographically secured traceability of satellite data.'
     ],
+    secondA: [
+      '<h3>On-going Partnerships with Value-Added dataset providers</h3>',
+      'We are now working on with partners with <b>solar data with 30 year history</b>.', 
+      'Crowdsourced network of ground stations for receiveing Cubesat data through Ethereum.',
+      'Climate reports and Analytical Platform for Agriculture, crop models with focus in African & Cambodian agriculture.',
+      'Smart Agriculture providing Wetness Index, Drought Measure, Urban Greenery, Urban heat island.'
+    ],
     third: [
       '<h3>We want to embrace various web3 revenue models.</h3>',
       'There are numerous opportunities to leverage sales of your value-added datasets',
@@ -81,7 +101,7 @@ export default class Index extends Vue {
     fourth: [
       '<h3>Possibility of higher usage of your data-sets</h3>',
       'Layer for data exchange within the fee market, various data vendor on platform. User will benefit on the combination of metadata vehicle',
-      '<b>Data Accessibility UX</b>',
+      '<h3>Data Accessibility UX</h3>',
       'ML/AI algorithms will gain new opportunities. Data prepared for ML/AI - it takes 80% of the time to prepare data set for ML',
       'Building blocks for other apps. Easier mashups with data-sets. Smooth information sharing thanks to interoperability across protocols. Data robustness and integrity with intermediaries',
     ],
@@ -97,5 +117,5 @@ export default class Index extends Vue {
 }
 </script>
 
-<style scoped>
+<style>
 </style>
