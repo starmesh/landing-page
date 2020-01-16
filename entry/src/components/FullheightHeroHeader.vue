@@ -45,7 +45,9 @@
                 <h2 class="subtitle">
                     Cryptographically verifiable and distributed data layer.
                 </h2>
-                
+                <h3 class="subtitle">
+                  Rich spatial data from various sources, all from one convenient location.
+                </h3>
             </div>
         </div>
         <!-- Hero footer: will stick at the bottom -->

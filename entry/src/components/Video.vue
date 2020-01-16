@@ -18,17 +18,10 @@
       <div class="container py-4">
         <div class="row justify-content-center">
           <div class="col-lg-12 text-center">
-            <Social />
+            <FooterContent />
           </div>
         </div>
       </div>
-        <div class="container py-4">
-          <div class="row justify-content-center mb-4">
-            <div class="col-lg-6">
-              <div class="video-motto">Backbone of data distribution</div>
-            </div>
-          </div>
-        </div>
     </div>
     </video-background>
   </div>
@@ -36,11 +29,11 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
-import Social from './Social.vue';
+import FooterContent from './FooterContent.vue';
 
 @Component({
   components: {
-    Social
+    FooterContent
   }
 })
 export default class Video extends Vue {}
