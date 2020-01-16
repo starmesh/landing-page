@@ -12,11 +12,20 @@ import { Component, Vue } from 'vue-property-decorator';
     return {
       title: 'StarMesh - Earth Observation meta-vehicle',
       titleTemplate: '%s | StarMesh',
-      meta: [{
-        vmid: 'description',
-        name: 'description',
-        content: 'Distributed and cryptographically verifiable Earth Observation meta-vehicle at one place'
-      }]
+      meta: [
+        { 
+          vmid: 'description',
+          name: 'description',
+          content: 'Distributed and cryptographically verifiable Earth Observation meta-vehicle at one place'
+        },
+        { property: 'og:title', content: 'StarMesh - Earth Observation meta-vehicle' },
+        { property: 'og:type', content: 'website'},
+        { property: 'og:url', content: 'https://starmesh.xyz'},
+        { property: 'og:description', content: 'Distributed and cryptographically verifiable Earth Observation meta-vehicle at one place' },
+        { property: 'og:site_name', content: 'Distributed and cryptographically verifiable Earth Observation meta-vehicle at one place'},
+        { property: 'og:locale', content: 'en_US'},
+        { property: 'og:image', content: '/img/icons/android-chrome-256x256.png'}
+      ]
     }
   },
 })
