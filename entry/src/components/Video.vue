@@ -1,12 +1,10 @@
 <template>
-  <div class="Video">
-    <img :src="`${publicPath}img/icons/starmesh_logo_dec1_2019_favicon_320x320.png`">
-    
+  <div class="Video">    
     <video-background 
       :elementId="'header-background-video'"
       :ref="'header-background-video'"
-      :mp4Source="require('../assets/fly_by_earth.mp4')" 
-      :posterSource="require('../assets/poster_flyby.jpg')"
+      :mp4Source="bgVideo" 
+      :posterSource="bgPoster"
       :mobileBreakpoint="992"
       :desktopHeight="550"
       :mobileHeight="450"
@@ -21,7 +19,6 @@
         <div class="row justify-content-center">
           <div class="col-lg-12 text-center">
             <FooterContent />
-            <!-- :mp4Source="require('../assets/fly_by_earth.mp4')"  -->
           </div>
         </div>
       </div>
@@ -40,9 +37,12 @@ import FooterContent from './FooterContent.vue';
   },
 })
 export default class Video extends Vue {
-  get publicPath() {
-    return (process as any).env.BASE_URL
-  } 
+  get bgPoster () {
+    return `./img/poster_flyby.jpg`;
+  }
+  get bgVideo () {
+    return `./img/video/fly_by_earth.mp4`;
+  }
 }
 </script>
 

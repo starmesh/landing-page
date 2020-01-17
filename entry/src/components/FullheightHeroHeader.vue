@@ -7,8 +7,8 @@
             <header class="navbar">
                 <div class="navbar-brand">
                     <a class="navbar-item" href="https://starmesh.xyz">
-                        <img src="@/assets/img/starmesh_logo_dec_2019.png" alt="StarMesh logo">
-                        <p>- StarMesh</p>
+                        <img :src="`${publicPath}img/starmesh_logo_dec_2019.png`" alt="StarMesh logo">
+                        <p>_StarMesh_</p>
                     </a>
 
                     <div class="navbar-burger" v-on:click="showNav = !showNav" v-bind:class="{ 'is-active' : showNav }">
@@ -41,7 +41,7 @@
                     StarMesh
                 </h1>
                 <h2 class="subtitle">
-                    Earth Observation meta-vehicle.
+                    🛰🌍 Earth Observation meta-vehicle.
                 </h2>
                 <h2 class="subtitle">
                     Cryptographically verifiable and distributed data layer.
@@ -79,6 +79,9 @@ export default class FullheightHeroHeader extends Vue {
   private img: string = 'Baltic_blooms'
   get bg () {
     return `./img/esa/${this.img}.jpg`;
+  }
+  get publicPath() {
+    return (process as any).env.BASE_URL
   }
 }
 </script>
