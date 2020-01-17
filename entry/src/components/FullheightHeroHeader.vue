@@ -1,6 +1,8 @@
 <template>
   <div class="FullheightHeroHeader">
-    <section class="hero is-primary is-fullheight header-image">
+    <section 
+      :style="{'background-image': 'url(' + bg + ')'}"
+      class="hero is-primary is-fullheight header-image">
         <div class="hero-head">
             <header class="navbar">
                 <div class="navbar-brand">
@@ -73,13 +75,16 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component
 export default class FullheightHeroHeader extends Vue {
-    private showNav: boolean = false;
+  private showNav: boolean = false;
+  private img: string = 'Baltic_blooms'
+  get bg () {
+    return `./img/esa/${this.img}.jpg`;
+  }
 }
 </script>
 
 <style scoped>
  .header-image {
-    background-image: url("../assets/img/esa/Baltic_blooms.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;

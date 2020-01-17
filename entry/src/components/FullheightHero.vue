@@ -36,8 +36,11 @@ export default class FullheightHero extends Vue {
   @Prop(Array) public text!: string;
 
   get bg () {
-      return require(`../assets/img/esa/${this.img}.jpg`);
+      return `./img/esa/${this.img}.jpg`;
     }
+  get publicPath() {
+    return (process as any).env.BASE_URL
+  }
 }
 </script>
 

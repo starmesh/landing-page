@@ -10,7 +10,7 @@ import { Component, Vue } from 'vue-property-decorator';
 @Component({
   metaInfo() {
     return {
-      title: 'StarMesh - Earth Observation meta-vehicle',
+      title: 'StarMesh - 🛰🌍 Earth Observation meta-vehicle',
       titleTemplate: '%s | StarMesh',
       meta: [
         { 
@@ -18,7 +18,7 @@ import { Component, Vue } from 'vue-property-decorator';
           name: 'description',
           content: 'Distributed and cryptographically verifiable Earth Observation meta-vehicle at one place'
         },
-        { property: 'og:title', content: 'StarMesh - Earth Observation meta-vehicle' },
+        { property: 'og:title', content: 'StarMesh - 🛰🌍 Earth Observation meta-vehicle' },
         { property: 'og:type', content: 'website'},
         { property: 'og:url', content: 'https://starmesh.xyz'},
         { property: 'og:description', content: 'Distributed and cryptographically verifiable Earth Observation meta-vehicle at one place' },

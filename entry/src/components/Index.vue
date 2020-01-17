@@ -48,17 +48,8 @@ import FullheightHero from './FullheightHero.vue';
     FullheightHeroHeader,
     FullheightHero,
   },
-  metaInfo() {
-    return {
-      title: 'StarMesh - Earth Observation meta-vehicle',
-      titleTemplate: ''
-    }
-  },
 })
 export default class Index extends Vue { 
-  private metaInfo = {
-   title: 'StarMesh - Earth Observation meta-vehicle',
- }
   private text = {
     first: [
       '<h3>We are trying to solve discoverability of data sets.</h3>',
