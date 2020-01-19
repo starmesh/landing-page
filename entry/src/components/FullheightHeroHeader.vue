@@ -77,9 +77,15 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 export default class FullheightHeroHeader extends Vue {
   private showNav: boolean = false;
   private img: string = 'Baltic_blooms'
-  get bg () {
-    return `./img/esa/${this.img}.jpg`;
+  
+  isSafari() {
+    return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
   }
+
+  get bg () {
+    return this.isSafari() ? `./img/esa/${this.img}.jpg` : `./img/esa/${this.img}.webp`;
+  }
+
   get publicPath() {
     return (process as any).env.BASE_URL
   }
