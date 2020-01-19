@@ -35,9 +35,13 @@ export default class FullheightHero extends Vue {
   @Prop(String) public img!: string;
   @Prop(Array) public text!: string;
 
+  isSafari() {
+    return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+  }
+
   get bg () {
-      return `./img/esa/${this.img}.jpg`;
-    }
+    return this.isSafari() ? `./img/esa/${this.img}.jpg` : `./img/esa/${this.img}.webp`;
+  }
 }
 </script>
 
