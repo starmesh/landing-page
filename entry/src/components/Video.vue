@@ -3,7 +3,7 @@
     <video-background 
       :elementId="'header-background-video'"
       :ref="'header-background-video'"
-      :mp4Source="bgVideo" 
+      :webmSource="bgVideoWebP"
       :posterSource="bgPoster"
       :mobileBreakpoint="992"
       :desktopHeight="550"
@@ -38,10 +38,15 @@ import FooterContent from './FooterContent.vue';
 })
 export default class Video extends Vue {
   get bgPoster () {
-    return `./img/poster_flyby.jpg`;
+    return `./img/poster_Earth_From_Space.jpg`;
   }
+  // https://caniuse.com/#feat=webm except IE should be everything supported
+  // :mp4Source="bgVideo" add if you have funny day, saves 2.5M 
   get bgVideo () {
-    return `./img/video/fly_by_earth.mp4`;
+    return `./img/video/Earth_From_Space.mp4`;
+  }
+  get bgVideoWebP () {
+    return `./img/video/Earth_From_Space.webm`;
   }
 }
 </script>

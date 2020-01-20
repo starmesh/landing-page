@@ -49,11 +49,12 @@ export default class FooterContent extends Vue {
       ];
   
   private esa_source = [
-        { url: 'https://www.esa.int/ESA_Multimedia/Images/2018/07/Shanghai_China', name: 1},
-        { url: 'https://www.esa.int/ESA_Multimedia/Images/2019/12/Baltic_blooms', name: 2},
-        { url: 'https://www.esa.int/ESA_Multimedia/Images/2018/07/Reykjavik_Iceland', name: 3},
-        { url: 'https://www.esa.int/ESA_Multimedia/Images/2019/10/Korean_Peninsula', name: 4},
-        { url: 'https://www.esa.int/ESA_Multimedia/Images/2019/12/Tromsoe_Norway', name: 5},
+        { url: 'https://www.esa.int/ESA_Multimedia/Images/2019/12/Baltic_blooms', name: 1},
+        { url: 'https://www.esa.int/ESA_Multimedia/Images/2018/07/Reykjavik_Iceland', name: 4},
+        { url: 'https://www.esa.int/ESA_Multimedia/Images/2019/10/Korean_Peninsula', name: 2},
+        { url: 'https://www.esa.int/ESA_Multimedia/Images/2019/12/Tromsoe_Norway', name: 3},
+        { url: 'https://www.esa.int/ESA_Multimedia/Images/2019/08/Gran_Canaria_wildfire', name: 5},
+        { url: 'https://www.esa.int/ESA_Multimedia/Images/2018/07/Shanghai_China', name: 6}
   ]
 }
 </script>

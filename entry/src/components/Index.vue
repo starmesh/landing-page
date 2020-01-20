@@ -26,8 +26,12 @@
       :text="text.fourth"
       />
     <FullheightHero 
-      img="Reykjavik_Iceland"
+      img="Gran_Canaria_wildfire"
       :text="text.fifth"
+      />
+    <FullheightHero 
+      img="Gran_Canaria_wildfire"
+      :text="text.sixth"
       />
     <MooSend />
     <Footer />
@@ -103,6 +107,11 @@ export default class Index extends Vue {
       'Help to identify Illegal Logging and Charcoal Trafficking. Illegal Unreported and Unregulated Fishing and Illegal Mining.',
       '<h3>Early Disaster Warnings</h3>',
       'Issue Early Disaster Warnings, Real-time monitoring of river streams within low maintenance to improve DAM safety.'
+    ],
+    sixth: [
+      '<h3>We are living in the digital era</h3>',
+      'where <b>Decentralized Autonomous Organizations</b> are daily routine in edge Ethereum communities.',
+      'We would like to empower community-driven assets for the commercial market. Our base layer, Polkadot, already supports DAO on the protocol level. We would like to leverage and experiment with Token Curated Registries (<b>TCR</b>) or Reputation Curated Registries (<b>RCR</b>) where individuals could decide how the market will handle their Earth Observation mashups assets.',
     ]
   }
 }
