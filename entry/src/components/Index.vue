@@ -26,11 +26,11 @@
       :text="text.fourth"
       />
     <FullheightHero 
-      img="Gran_Canaria_wildfire"
+      img="The_Lena_River"
       :text="text.fifth"
       />
     <FullheightHero 
-      img="Gran_Canaria_wildfire"
+      img="The_Lena_River"
       :text="text.sixth"
       />
     <MooSend />

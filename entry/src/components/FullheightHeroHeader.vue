@@ -6,10 +6,10 @@
         <div class="hero-head">
             <header class="navbar">
                 <div class="navbar-brand">
-                    <a class="navbar-item" href="https://starmesh.xyz">
-                        <img :src="`${publicPath}img/starmesh_logo_dec_2019.png`" alt="StarMesh logo">
-                        <p>_StarMesh_</p>
-                    </a>
+                    <!-- <a class="navbar-item" href="https://starmesh.xyz">
+                        <img class="navbar-logo" :src="`${publicPath}img/starmesh_logo_dec_2019.png`" alt="StarMesh logo">
+                        <p>StarMesh</p>
+                    </a> -->
 
                     <div class="navbar-burger" v-on:click="showNav = !showNav" v-bind:class="{ 'is-active' : showNav }">
                         <span></span>
@@ -19,9 +19,9 @@
                 </div>
                 <div class="navbar-menu" v-bind:class="{ 'is-active' : showNav }">
                     <div class="navbar-end">
-                        <a class="navbar-item" href="#">tech</a>
+                        <!-- <a class="navbar-item" href="#">tech</a>
                         <a class="navbar-item" href="#">team</a>
-                        <a class="navbar-item" href="#">about</a>
+                        <a class="navbar-item" href="#">about</a> -->
                         <span class="navbar-item">
                             <a class="button is-primary is-inverted">
                                 <span class="icon">
@@ -37,7 +37,8 @@
 
         <div class="hero-body">
             <div class="container has-text-centered">
-                <h1 class="title">
+                <img class="center-logo" :src="`${publicPath}img/starmesh_logo_dec_2019.png`" alt="StarMesh logo">
+                <h1 class="title is-spaced">
                     StarMesh
                 </h1>
                 <h2 class="subtitle">
@@ -99,6 +100,11 @@ export default class FullheightHeroHeader extends Vue {
     background-attachment: fixed;
     background-size: cover;
     background-color: #999;
+}
+
+.center-logo {
+  max-height: 4.75rem;
+  margin: 1rem;
 }
 
 </style>

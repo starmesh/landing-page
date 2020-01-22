@@ -3,7 +3,7 @@
     <div class="content">
       <div class="columns">
         <div class="column is-6 is-offset-3">
-        <h1>🛰 Add us on socials 🌍</h1>
+        <h1>🛰🌍 Follow Us </h1>
         <span class="social-icons" v-for="item in socials" :key="item.url">
           <a :href="item.url" target="_blank" rel="noopener" class="social-icon" aria-hidden="true">
             <font-awesome-icon v-if="item.icon" :icon="item.icon" />
@@ -49,12 +49,12 @@ export default class FooterContent extends Vue {
       ];
   
   private esa_source = [
-        { url: 'https://www.esa.int/ESA_Multimedia/Images/2019/12/Baltic_blooms', name: 1},
-        { url: 'https://www.esa.int/ESA_Multimedia/Images/2018/07/Reykjavik_Iceland', name: 4},
-        { url: 'https://www.esa.int/ESA_Multimedia/Images/2019/10/Korean_Peninsula', name: 2},
-        { url: 'https://www.esa.int/ESA_Multimedia/Images/2019/12/Tromsoe_Norway', name: 3},
-        { url: 'https://www.esa.int/ESA_Multimedia/Images/2019/08/Gran_Canaria_wildfire', name: 5},
-        { url: 'https://www.esa.int/ESA_Multimedia/Images/2018/07/Shanghai_China', name: 6}
+        { url: 'https://www.esa.int/ESA_Multimedia/Images/2019/12/Baltic_blooms', name: 'Baltic Blooms 🇸🇪'},
+        { url: 'https://www.esa.int/ESA_Multimedia/Images/2019/10/Korean_Peninsula', name: 'Peninsula 🇰🇷🇰🇵'},
+        { url: 'https://www.esa.int/ESA_Multimedia/Images/2019/12/Tromsoe_Norway', name: 'Tromsoe 🇳🇴'},
+        { url: 'https://www.esa.int/ESA_Multimedia/Images/2018/07/Reykjavik_Iceland', name: 'Reykjavik 🇮🇸'},
+        { url: 'https://unsplash.com/photos/qTV6c2pjbBo', name: 'The Lena River 🇷🇺'},
+        // { url: 'https://www.esa.int/ESA_Multimedia/Images/2018/07/Shanghai_China', name: 6}
   ]
 }
 </script>
