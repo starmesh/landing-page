@@ -38,15 +38,18 @@ import {
   faTelegram,
   faFacebookMessenger,
   faGit,
-  faTwitter
+  faTwitter,
+  faLinkedin
 } from '@fortawesome/free-brands-svg-icons'
 
 @Component
 export default class FooterContent extends Vue {
   private socials = [
+        { url: 'https://twitter.com/StarMesh1', title: 'Twitter', icon: faTwitter },
         { url: 'https://github.com/starmesh', title: 'Github', icon: faGithub },
-        { url: 'https://twitter.com/StarMesh1', title: 'Twitter', icon: faTwitter }
-      ];
+        { url: 'https://www.facebook.com/starmesh1/', title: 'Linkedin', icon: faFacebook },
+        { url: 'https://www.linkedin.com/company/starmesh1/', title: 'Linkedin', icon: faLinkedin },
+  ];
   
   private esa_source = [
         { url: 'https://www.esa.int/ESA_Multimedia/Images/2019/12/Baltic_blooms', name: 'Baltic Blooms 🇸🇪'},
