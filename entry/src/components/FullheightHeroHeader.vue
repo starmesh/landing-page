@@ -23,7 +23,8 @@
                         <a class="navbar-item" href="#">team</a>
                         <a class="navbar-item" href="#">about</a> -->
                         <span class="navbar-item">
-                            <a class="button is-primary is-inverted">
+                            <a class="button is-primary is-inverted"
+                              href="https://twitter.com/Starmesh1">
                                 <span class="icon">
                                 <i class="fab fa-twitter"></i>
                                 </span>
