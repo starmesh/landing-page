@@ -4,7 +4,7 @@
       :style="{'background-image': 'url(' + bg + ')'}"
       class="hero is-primary is-fullheight header-image">
         <div class="hero-head">
-            <header class="navbar">
+            <header class="navbar is-fixed-top">
                 <div class="navbar-brand">
                     <!-- <a class="navbar-item" href="https://starmesh.xyz">
                         <img class="navbar-logo" :src="`${publicPath}img/starmesh_logo_dec_2019.png`" alt="StarMesh logo">
@@ -27,6 +27,15 @@
                               href="https://twitter.com/Starmesh1">
                                 <span class="icon">
                                 <i class="fab fa-twitter"></i>
+                                </span>
+                                <span>Follow</span>
+                            </a>
+                        </span>
+                        <span class="navbar-item">
+                            <a class="button is-primary is-inverted"
+                              href="https://www.linkedin.com/company/starmesh1/">
+                                <span class="icon">
+                                <i class="fab fa-linkedin"></i>
                                 </span>
                                 <span>Follow</span>
                             </a>
