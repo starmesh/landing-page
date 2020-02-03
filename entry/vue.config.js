@@ -1,3 +1,5 @@
+const CopyPlugin = require('copy-webpack-plugin');
+
 module.exports = {
   productionSourceMap: false,
   pwa: {
@@ -5,5 +7,12 @@ module.exports = {
     msTileColor: '#1a1a1a',
     themeColor: '#1a1a1a',
   },
-  publicPath: '/'
+  publicPath: '/',
+  configureWebpack: {
+    plugins: [
+      new CopyPlugin([
+        { from: 'root', to: '.', ignore: ['.*'] }
+      ]),
+    ]
+  }
 }
