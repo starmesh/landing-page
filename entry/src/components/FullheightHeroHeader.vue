@@ -6,10 +6,10 @@
         <div class="hero-head">
             <header class="navbar is-fixed-top">
                 <div class="navbar-brand">
-                    <!-- <a class="navbar-item" href="https://starmesh.xyz">
+                    <a class="navbar-item" :href="`${publicPath}`">
                         <img class="navbar-logo" :src="`${publicPath}img/starmesh_logo_dec_2019.png`" alt="StarMesh logo">
                         <p>StarMesh</p>
-                    </a> -->
+                    </a>
 
                     <div class="navbar-burger" v-on:click="showNav = !showNav" v-bind:class="{ 'is-active' : showNav }">
                         <span></span>
@@ -63,20 +63,21 @@
             </div>
         </div>
         <!-- Hero footer: will stick at the bottom -->
-        <!-- <div class="hero-foot">
+        <div class="hero-foot">
             <nav class="tabs is-boxed is-fullwidth">
                 <div class="container">
                     <ul>
-                        <li class="is-active"><a>Overview</a></li>
-                        <li><a>Modifiers</a></li>
-                        <li><a>Grid</a></li>
+                        <!-- <li class="is-active"><a>Overview</a></li> -->
+                        <li><router-link :to="{ name: 'index' }">Overview</router-link></li>
+                        <li><router-link :to="{ name: 'blockchain' }">Blockchain</router-link></li>
+                        <!-- <li><a>Grid</a></li>
                         <li><a>Elements</a></li>
                         <li><a>Components</a></li>
-                        <li><a>Layout</a></li>
+                        <li><a>Layout</a></li> -->
                     </ul>
                 </div>
             </nav>
-        </div> -->
+        </div>
     </section>
   </div>
 </template>
@@ -111,7 +112,12 @@ export default class FullheightHeroHeader extends Vue {
     background-size: cover;
     background-color: #999;
 }
-
+.hero.is-primary .tabs.is-boxed a:hover {
+  background-color: rgba(255, 255, 255, 0.3)
+}
+.navbar-logo {
+  margin: 0.7rem;
+}
 .center-logo {
   max-height: 4.75rem;
   margin: 1rem;

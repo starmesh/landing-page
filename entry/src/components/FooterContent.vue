@@ -17,7 +17,7 @@
         🛰🌍 StarMesh - source from <a href="https://github.com/starmesh/landing-page">starmesh/landing-page</a>. 
         The source code is licensed
         <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. 
-        Follow Us <a href="https://twitter.com/StarMesh1">twitter.com/StarMesh1</a>.
+        Follow Us <a href="https://twitter.com/StarMesh1">@StarMesh1</a>.
       </p>
       <p>📸 Images or videos released by <a href="https://www.esa.int/ESA_Multimedia/Copyright_Notice_Images">ESA under Creative Commons Attribution-ShareAlike 3.0 IGO (CC BY-SA 3.0 IGO) Licence</a></p>
       <span v-for="item in esa_source" :key="item.url">
