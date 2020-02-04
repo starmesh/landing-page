@@ -57,6 +57,8 @@ export default class FooterContent extends Vue {
         { url: 'https://www.esa.int/ESA_Multimedia/Images/2019/12/Tromsoe_Norway', name: 'Tromsoe 🇳🇴'},
         { url: 'https://www.esa.int/ESA_Multimedia/Images/2018/07/Reykjavik_Iceland', name: 'Reykjavik 🇮🇸'},
         { url: 'https://unsplash.com/photos/qTV6c2pjbBo', name: 'The Lena River 🇷🇺'},
+        { url: 'https://www.esa.int/ESA_Multimedia/Images/2020/01/Lake_George_Uganda', name: 'Lake George 🇺🇬'},
+        { url: 'https://www.esa.int/ESA_Multimedia/Images/2018/05/Zambezi_Delta_diversity', name: 'Zambezi Delta diversity 🇲🇿'}
         // { url: 'https://www.esa.int/ESA_Multimedia/Images/2018/07/Shanghai_China', name: 6}
   ]
 }

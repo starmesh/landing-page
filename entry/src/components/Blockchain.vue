@@ -41,6 +41,30 @@
       img="The_Lena_River"
       :text="text.sixthB"
       />
+    <FullheightHero 
+      img="Zambezi_Delta_diversity"
+      :text="text.seven"
+      />
+    <FullheightHero 
+      img="Zambezi_Delta_diversity"
+      :text="text.sevenA"
+      />
+    <FullheightHero 
+      img="Zambezi_Delta_diversity"
+      :text="text.sevenB"
+      />
+    <FullheightHero 
+      img="Lake_George_Uganda"
+      :text="text.sevenC"
+      />
+    <FullheightHero 
+      img="Lake_George_Uganda"
+      :text="text.sevenD"
+      />
+    <FullheightHero 
+      img="Lake_George_Uganda"
+      :text="text.sevenE"
+      />
     <MooSend />
     <Footer />
   </div>
@@ -65,7 +89,7 @@ export default class Index extends Vue {
   private text = {
     first: [
       '<h3>Blockchain technology</h3>',
-      'is often referred to as having a revolutionary potential for transforming the <b>‘digital economy’</b> by replacing monolithic and centralised management structures (such as banks, stock exchanges and government agency functions) by a network of distributed and inclusive systems, in which people and organisations can participate in open, transparent and direct collaboration (peer-to-peer) ecosystems.',
+      'is often referred to as having a revolutionary potential for transforming the <b>‘digital economy’</b> by replacing monolithic and centralised management structures (such as banks, stock exchanges and government agency functions) by a network of distributed and inclusive systems, in which people and organisations <b>can participate in open, transparent and direct collaboration (peer-to-peer) ecosystems.</b>',
       'This vision of information and value exchange, conducted in a trustworthy way and without central control authority, is driving substantial investments into various startups and blockchain enterprises.',
     ],
     firstA: [
@@ -77,7 +101,7 @@ export default class Index extends Vue {
     second: [
       '<h3>Digital transactions</h3>',
       'As things progress, digital transactions will take place in an increasingly automated way, without intermediaries or brokers, and involving both human and machine interaction and data sharing in the value chain.',
-      'New digital data structures and integration process solutions that allow us to lower the administrative cost of such operations (i.e. contract signing, invoicing and settlements), or share revenues for collaborative inputs, will therefore be breaking new ground for the EO industry.'
+      'New digital data structures and integration process solutions that allow us to <b>lower the administrative cost of such operations</b> (i.e. contract signing, invoicing and settlements), or share revenues for collaborative inputs, will therefore be breaking new ground for the EO industry.'
     ],
     secondA: [
       '<h3>EO sensor networks</h3>',
@@ -118,6 +142,39 @@ export default class Index extends Vue {
       'Finally, data security and protection should be taken into account as a vital element in the future of EO services.','Large repositories and databases of various economic, financial and personal data (including location data) are being made increasingly available, whether open or sold commercially to data analytics or data brokering companies.',
       'The success of future EO applications will depend on access to this wealth of digital data. At the same time, protection of sensitive non-EO databases from theft or interference, must be ensured, and in accordance with regulations such as EU GDPR (the EU General Data Protection Regulation).',
       '<b>There is therefore a need to demonstrate that the benefits of sharing sensitive data outweigh the risks, and that there are technological solutions for data protection that lower those risks while providing high analytical utility.</b> This need also reveals the demand for privacy- focussed and data security-driven applications, which could enable large groups of data to be simultaneously proprietary (or private), secured and shareable.'
+    ],
+    seven: [
+      '<h3>Product Integrity, traceability, automated certification and auditability</h3>',
+      'The use case includes organising, arranging and tracking distributed processing in the cloud, and building trust in algorithms and data processing chains, in particular the authentication of provenance and certification of data and processes.',
+      'The use of blockchain data structures to <b>validate EO data and metadata</b> (data acquisition time/date etc.) provenance, by providing a trust anchor that any third party can use in case of a dispute',
+      'The use of blockchain data structures to verify the steps of <b>processing, archiving and dissemination of the data </b> from the Sentinel Core Ground Segment to the end-users',
+      'The use of blockchain data structures to give the operators of the Copernicus Space Component Data Access System means to audit the Copernicus products archive.'
+    ],
+    sevenA: [
+      '<h3>Digital Identity solutions</h3>',
+      'The use case includes the analysis of international standardisation efforts led by industry for the easier exchange of <b>digital identity credentials between different entities/devices in the decentralised ecosystem</b>, as well as European initiatives such as eIDAS (electronic IDentification, Authentication and trust Service) that may be integrated with blockchain to provide digital data representation and trusted identity frameworks for use in decentralised networks.'
+    ],
+    sevenB: [
+      '<h3>EO data access and trading</h3>',
+      'The use case includes the exploration of novel concepts for <b>EO data digital licenses which are programmable and self- executing</b> based on the user’s profile, identity or tasks undertaken in the online/ platform environment.', 
+      'They may result in the development of <b>EO data rental and trading schemes based on tokenisation of assets.</b>'
+    ],
+    sevenC: [
+      '<h3>Intellectual Property Rights (IPR)</h3>',
+      'The use case reflects DLT applications for copyright protection.',
+      'Existing examples from other industry domains indicate that authors and creators can publish works on blockchain creating a <b>quasi- immutable record of initial ownership, and encode smart contract functionality to license the use of their works.</b>',
+      'For the EO sector the key point of value-adding interest is the ability to register copyright products in online registers, track the use of IP elements (ie. software and data products) and develop new ways of attributing use, and exchange of value for the use of copyright-protected content.'
+    ],
+    sevenD: [
+      '<h3>Incentives in community collaborations</h3>',
+      'Blockchain general utility is primarily revealed in situations when parties that do not trust each other have to work and collaborate together.',
+      'This use case is based on blockchain-specific functions that can enhance trust frameworks among the participants in the collaborative networks.',
+      'Blockchain encourages <b>community collaboration without intermediaries, while protecting the ownership of encrypted/shared data</b>, or software elements, and providing accountability for its use, and maintaining integrity of the resource pool. Devising frameworks for interacting among network participants via a tokenised system can also facilitate the ingestion of verifiable data sources to the pool of shareable resources, and revenue sharing schemes.'
+    ],
+    sevenE: [
+      '<h3>Digital representation of assets</h3>',
+      'For emerging DApps (Distributed Applications) services and Smart Contract execution.',
+      'This use case is to demonstrate the role of EO in blockchain applications; in particular how EO can bridge and connect the physical environment to digital ledgers, and support the formulation of structured data flows in a variety of <b>asset management, risk management, environmental management, logistics or insurance domains</b>'
     ]
   }
 }

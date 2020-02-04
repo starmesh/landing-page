@@ -74,18 +74,14 @@
             </div>
         </div>
         <!-- Hero footer: will stick at the bottom -->
-        <div class="hero-foot">
+        <div id="discover" class="hero-foot">
             <nav class="tabs is-boxed is-fullwidth">
                 <div class="container">
                     <ul>
-                        <!-- <li class="is-active"><a>Overview</a></li> -->
-                        <li><router-link :to="{ name: 'index' }">Overview</router-link></li>
-                        <li><router-link :to="{ name: 'blockchain' }">Blockchain</router-link></li>
-                        <li><router-link :to="{ name: 'dao' }">DAO</router-link></li>
-                        <!-- <li><a>Grid</a></li>
-                        <li><a>Elements</a></li>
-                        <li><a>Components</a></li>
-                        <li><a>Layout</a></li> -->
+                        <li><router-link :to="{ name: 'index', hash: '#discover' }">Overview</router-link></li>
+                        <li><router-link :to="{ name: 'blockchain', hash: '#discover' }">Blockchain</router-link></li>
+                        <li><router-link :to="{ name: 'dao', hash: '#discover' }">DAO</router-link></li>
+                        <li><router-link :to="{ name: 'ai', hash: '#discover' }">AI</router-link></li>
                     </ul>
                 </div>
             </nav>
