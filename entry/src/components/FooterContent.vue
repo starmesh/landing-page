@@ -47,7 +47,7 @@ export default class FooterContent extends Vue {
   private socials = [
         { url: 'https://twitter.com/StarMesh1', title: 'Twitter', icon: faTwitter },
         { url: 'https://github.com/starmesh', title: 'Github', icon: faGithub },
-        { url: 'https://www.facebook.com/starmesh1/', title: 'Linkedin', icon: faFacebook },
+        { url: 'https://www.facebook.com/starmesh1/', title: 'Facebook', icon: faFacebook },
         { url: 'https://www.linkedin.com/company/starmesh1/', title: 'Linkedin', icon: faLinkedin },
   ];
   

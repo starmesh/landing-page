@@ -12,6 +12,11 @@ const paths = [
     component: () => import(/* webpackChunkName: "about" */ '../components/Blockchain.vue')
   },
   {
+    path: '/why-dao',
+    name: 'dao',
+    component: () => import(/* webpackChunkName: "about" */ '../components/Dao.vue')
+  },
+  {
     path: '/about',
     name: 'about',
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')

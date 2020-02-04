@@ -40,10 +40,21 @@
                                 <span>Follow</span>
                             </a>
                         </span>
+                        <span class="navbar-item">
+                            <a class="button is-primary is-inverted"
+                              href="https://www.facebook.com/starmesh1/">
+                                <span class="icon">
+                                <i class="fab fa-facebook"></i>
+                                </span>
+                                <span>Like</span>
+                            </a>
+                        </span>
                     </div>
                 </div>
             </header>
         </div>
+
+        <!-- Hello, I found you we're presenting at Phi week 2019 about Earth Observation on blockchain? We are probably doing something same already, but we need to find out :) We are doing https://starmesh.xyz/why-blockchain let me know what do you think and probably we can chat more -->
 
         <div class="hero-body">
             <div class="container has-text-centered">
@@ -70,6 +81,7 @@
                         <!-- <li class="is-active"><a>Overview</a></li> -->
                         <li><router-link :to="{ name: 'index' }">Overview</router-link></li>
                         <li><router-link :to="{ name: 'blockchain' }">Blockchain</router-link></li>
+                        <li><router-link :to="{ name: 'dao' }">DAO</router-link></li>
                         <!-- <li><a>Grid</a></li>
                         <li><a>Elements</a></li>
                         <li><a>Components</a></li>
@@ -114,6 +126,18 @@ export default class FullheightHeroHeader extends Vue {
 }
 .hero.is-primary .tabs.is-boxed a:hover {
   background-color: rgba(255, 255, 255, 0.3)
+}
+.hero.is-primary .tabs.is-boxed {
+  background-color: hsla(0, 0%, 10%, 0.55);
+}
+.navbar-brand {
+  background-color: hsla(0, 0%, 10%, 0.55);
+}
+.navbar-menu {
+  background-color: hsla(0, 0%, 10%, 0.55);
+}
+.navbar-burger {
+  color: whitesmoke;
 }
 .navbar-logo {
   margin: 0.7rem;
