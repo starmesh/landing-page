@@ -84,6 +84,26 @@ import FullheightHero from './FullheightHero.vue';
     FullheightHeroHeader,
     FullheightHero,
   },
+  metaInfo() {
+    return {
+      title: '🛰🌍 Earth Observation and Blockchain',
+      titleTemplate: '%s | StarMesh',
+      meta: [
+        { 
+          vmid: 'description',
+          name: 'description',
+          content: 'Why we are using blockchain with Earth Observation data?'
+        },
+        { property: 'og:title', content: '🛰🌍 Earth Observation and Blockchain' },
+        { property: 'og:type', content: 'website'},
+        { property: 'og:url', content: 'https://starmesh.xyz'},
+        { property: 'og:description', content: 'Why we are using blockchain with Earth Observation data?' },
+        { property: 'og:site_name', content: 'Why we are using blockchain with Earth Observation data?'},
+        { property: 'og:locale', content: 'en_US'},
+        { property: 'og:image', content: '/img/icons/android-chrome-256x256.png'}
+      ]
+    }
+  },
 })
 export default class Index extends Vue { 
   private text = {
