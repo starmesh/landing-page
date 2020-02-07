@@ -1,5 +1,5 @@
 <template>
-  <div class="FullheightHero">
+  <div :id="id" class="FullheightHero">
     <section
       :style="{'background-image': 'url(' + bg + ')'}"
       class="hero is-primary is-fullheight header-image"
@@ -24,6 +24,7 @@
         </div>
       </div>
     </section>
+    <div v-waypoint="{ active: true, callback: onWaypoint, options: intersectionOptions }" :id="id"></div>
   </div>
 </template>
 
@@ -34,6 +35,7 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 export default class FullheightHero extends Vue {
   @Prop(String) public img!: string;
   @Prop(Array) public text!: string;
+  @Prop(String) public id!: string;
 
   isSafari() {
     return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
@@ -42,6 +44,21 @@ export default class FullheightHero extends Vue {
   get bg () {
     return this.isSafari() ? `./img/esa/${this.img}.jpg` : `./img/esa/${this.img}.webp`;
   }
+  
+  public intersectionOptions: any = {
+    root: null,
+    rootMargin: '0px',
+    threshold: [1, 0] // [0.25, 0.75] if you want a 25% offset!
+  }
+
+  private onWaypoint ({ el, going, direction }: object): void {
+      // going: in, out
+      // direction: top, right, bottom, left
+      if (going === this.$waypointMap.GOING_IN 
+        && direction === this.$waypointMap.DIRECTION_TOP) {
+        this.$router.push({ name: 'blockchain', hash: `#${el.getAttribute('id')}` })
+      }
+    }
 }
 </script>
 

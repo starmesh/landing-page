@@ -61,7 +61,7 @@ import FullheightHero from './FullheightHero.vue';
     FullheightHero,
   },
 })
-export default class Index extends Vue { 
+export default class Ai extends Vue { 
   private text = {
     first: [
       '<h3>Synergic use</h3>',

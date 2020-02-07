@@ -2,66 +2,82 @@
   <div class="index">
     <FullheightHeroHeader />
     <FullheightHero 
+      id="blockchain-technology"
       img="Korean_Peninsula"
       :text="text.first"
       />
      <FullheightHero 
+      id="experts-agree"
       img="Korean_Peninsula"
       :text="text.firstA"
-      />
+      />    
     <FullheightHero 
+      id="digital-transactions"
       img="Tromsoe_Norway"
       :text="text.second"
-      />
+      />    
     <FullheightHero 
+      id="eo-sensor-networks"
       img="Tromsoe_Norway"
       :text="text.secondA"
-      />
+      />    
     <FullheightHero 
+      id="sentinel-product-life-cycle"
       img="Reykjavik_Iceland"
       :text="text.third"
-      />
-    <FullheightHero 
+      />    
+    <FullheightHero
+      id="Tracking-of-data-processing-steps" 
       img="Reykjavik_Iceland"
       :text="text.fourth"
-      />
+      />    
     <FullheightHero 
+      id="Empower-underrepresented-users-of-EO"
       img="The_Lena_River"
       :text="text.fifth"
       />
     <FullheightHero 
+      id="Collaborative-arrangements"
       img="The_Lena_River"
       :text="text.sixth"
       />
     <FullheightHero 
+      id="New-EO-digital-data-licenses"
       img="The_Lena_River"
       :text="text.sixthA"
       />
     <FullheightHero 
+      id="Data-security-and-protection"
       img="The_Lena_River"
       :text="text.sixthB"
       />
-    <FullheightHero 
+    <FullheightHero
+      id="provenance-product-integrity-traceablity-automated-certification-auditability-of-data"
       img="Zambezi_Delta_diversity"
       :text="text.seven"
       />
     <FullheightHero 
+      id="digital-identity-solutions"
       img="Zambezi_Delta_diversity"
       :text="text.sevenA"
       />
     <FullheightHero 
+      id="eo-data-access-and-trading"
       img="Zambezi_Delta_diversity"
       :text="text.sevenB"
       />
     <FullheightHero 
+      id="intellectual-property-rights"
       img="Lake_George_Uganda"
       :text="text.sevenC"
       />
     <FullheightHero 
+      id="Incentives-in-community-collaborations"
       img="Lake_George_Uganda"
       :text="text.sevenD"
       />
     <FullheightHero 
+      id="Digital-representation-of-assets"
       img="Lake_George_Uganda"
       :text="text.sevenE"
       />
@@ -105,7 +121,7 @@ import FullheightHero from './FullheightHero.vue';
     }
   },
 })
-export default class Index extends Vue { 
+export default class Blockchain extends Vue { 
   private text = {
     first: [
       '<h3>Blockchain technology</h3>',

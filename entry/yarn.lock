@@ -8198,7 +8198,14 @@ vue-video-section@^1.0.2:
   dependencies:
     vue-screen-size "^1.0.0"
 
-vue@^2.6.10:
+vue-waypoint@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/vue-waypoint/-/vue-waypoint-3.2.2.tgz#9c35ca9c75ca8a7a03550eb1640ae1a0e5b8df10"
+  integrity sha512-T11nSEsmR19fc7zdRKc9YG55m4FGbQWeQY15qOdJGi80x9yAeritoTWo1sCJPoJ/S9ekkNC713z/n1r5zflOLA==
+  dependencies:
+    vue "^2.5.2"
+
+vue@^2.5.2, vue@^2.6.10:
   version "2.6.11"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.11.tgz#76594d877d4b12234406e84e35275c6d514125c5"
   integrity sha512-VfPwgcGABbGAue9+sfrD4PuwFar7gPb1yl1UK1MwXoQPAw0BKSqWfoYCT/ThFrdEVWoI51dBuyCoiNU9bZDZxQ==

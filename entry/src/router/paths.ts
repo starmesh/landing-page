@@ -20,11 +20,6 @@ const paths = [
     path: '/why-ai',
     name: 'ai',
     component: () => import(/* webpackChunkName: "about" */ '../components/Ai.vue')
-  },
-  {
-    path: '/about',
-    name: 'about',
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   }
 ]
 

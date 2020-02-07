@@ -41,7 +41,7 @@ import FullheightHero from './FullheightHero.vue';
     FullheightHero,
   },
 })
-export default class Index extends Vue { 
+export default class Dao extends Vue { 
   private text = {
     first: [
       '<h3>Tokenized Networks: What is a DAO?</h3>',

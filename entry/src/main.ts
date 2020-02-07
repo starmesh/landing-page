@@ -10,6 +10,7 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons';
 import { faGalacticSenate, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import VideoBackground from 'vue-video-section'; 
+import VueWaypoint from 'vue-waypoint';
 
 Vue.component('video-background', VideoBackground);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
@@ -18,6 +19,7 @@ library.add(faTrash, faGalacticSenate, faTwitter);
 
 Vue.use(Buefy, {})
 Vue.use(VueMeta)
+Vue.use(VueWaypoint)
 
 Vue.config.productionTip = false
 
