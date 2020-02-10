@@ -2,6 +2,7 @@
   <div class="index">
     <FullheightHeroHeader />
     <FullheightHero 
+      id="tokenized-networks"
       img="Korean_Peninsula"
       :text="text.first"
       />

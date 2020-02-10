@@ -10,7 +10,7 @@
                         <img class="navbar-logo" :src="`${publicPath}img/starmesh_logo_dec_2019.png`" alt="StarMesh logo">
                         <p>StarMesh</p>
                     </a>
-
+                    <!-- <router-link class="navbar-item" :to="{ name: 'ai', hash: '#discover' }">AI</router-link> -->
                     <div class="navbar-burger" v-on:click="showNav = !showNav" v-bind:class="{ 'is-active' : showNav }">
                         <span></span>
                         <span></span>
@@ -19,9 +19,27 @@
                 </div>
                 <div class="navbar-menu" v-bind:class="{ 'is-active' : showNav }">
                     <div class="navbar-end">
+                      <router-link class="navbar-item" :to="{ name: 'blockchain', 
+                        hash: '#blockchain-technology' }">Blockchain</router-link>
+                      <router-link class="navbar-item" 
+                        :to="{ name: 'blockchain', 
+                        hash: '#provenance-product-integrity-traceablity-automated-certification-auditability-of-data' }">
+                        Traceability
+                      </router-link>
+                      <router-link class="navbar-item" :to="{ name: 'blockchain', 
+                        hash: '#eo-data-access-and-trading' }">EO Data Rental
+                      </router-link>
+                      <router-link class="navbar-item" :to="{ name: 'blockchain', 
+                        hash: '#New-EO-digital-data-licenses' }">EO Data licenses
+                      </router-link>
+                      <router-link class="navbar-item" :to="{ name: 'blockchain', 
+                        hash: '#intellectual-property-rights' }">IPR</router-link>
+                      <router-link class="navbar-item" :to="{ name: 'dao', 
+                        hash: '#tokenized-networks' }">DAO
+                      </router-link>
                         <!-- <a class="navbar-item" href="#">tech</a>
                         <a class="navbar-item" href="#">team</a>
-                        <a class="navbar-item" href="#">about</a> -->
+                        <a class="navbar-item" href="#">about</a>  -->
                         <span class="navbar-item">
                             <a class="button is-primary is-inverted"
                               href="https://twitter.com/Starmesh1">
@@ -74,7 +92,7 @@
             </div>
         </div>
         <!-- Hero footer: will stick at the bottom -->
-        <div id="discover" class="hero-foot">
+        <!-- <div id="discover" class="hero-foot">
             <nav class="tabs is-boxed is-fullwidth">
                 <div class="container">
                     <ul>
@@ -85,7 +103,7 @@
                     </ul>
                 </div>
             </nav>
-        </div>
+        </div> -->
     </section>
   </div>
 </template>
