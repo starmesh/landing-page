@@ -6,9 +6,7 @@
         <form action="https://app.moosend.com/subscribe/87930c03-8f8b-4964-97a9-4dbd38a7ab13" 
           method="post" id="ms-sub-form" target="_blank">
         <div>
-          <b-field 
-
-            >
+          <b-field>
             <b-input type="email" name="ms-email" id="email" maxlength="64" required placeholder="example@yourcompany.com">
             </b-input>
           </b-field>

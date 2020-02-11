@@ -4,92 +4,91 @@
       :style="{'background-image': 'url(' + bg + ')'}"
       class="hero is-primary is-fullheight header-image">
         <div class="hero-head">
-            <header class="navbar is-fixed-top">
-                <div class="navbar-brand">
-                    <a class="navbar-item" :href="`${publicPath}`">
-                        <img class="navbar-logo" :src="`${publicPath}img/starmesh_logo_dec_2019.png`" alt="StarMesh logo">
-                        <p>StarMesh</p>
-                    </a>
-                    <!-- <router-link class="navbar-item" :to="{ name: 'ai', hash: '#discover' }">AI</router-link> -->
-                    <div class="navbar-burger" v-on:click="showNav = !showNav" v-bind:class="{ 'is-active' : showNav }">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-                <div class="navbar-menu" v-bind:class="{ 'is-active' : showNav }">
-                    <div class="navbar-end">
-                      <router-link class="navbar-item" :to="{ name: 'blockchain', 
-                        hash: '#blockchain-technology' }">Blockchain</router-link>
-                      <router-link class="navbar-item" 
-                        :to="{ name: 'blockchain', 
-                        hash: '#provenance-product-integrity-traceablity-automated-certification-auditability-of-data' }">
-                        Traceability
-                      </router-link>
-                      <router-link class="navbar-item" :to="{ name: 'blockchain', 
-                        hash: '#eo-data-access-and-trading' }">EO Data Rental
-                      </router-link>
-                      <router-link class="navbar-item" :to="{ name: 'blockchain', 
-                        hash: '#New-EO-digital-data-licenses' }">EO Data licenses
-                      </router-link>
-                      <router-link class="navbar-item" :to="{ name: 'blockchain', 
-                        hash: '#intellectual-property-rights' }">IPR</router-link>
-                      <router-link class="navbar-item" :to="{ name: 'dao', 
-                        hash: '#tokenized-networks' }">DAO
-                      </router-link>
-                        <!-- <a class="navbar-item" href="#">tech</a>
-                        <a class="navbar-item" href="#">team</a>
-                        <a class="navbar-item" href="#">about</a>  -->
-                        <span class="navbar-item">
-                            <a class="button is-primary is-inverted"
-                              href="https://twitter.com/Starmesh1">
-                                <span class="icon">
-                                <i class="fab fa-twitter"></i>
-                                </span>
-                                <span>Follow</span>
-                            </a>
-                        </span>
-                        <span class="navbar-item">
-                            <a class="button is-primary is-inverted"
-                              href="https://www.linkedin.com/company/starmesh1/">
-                                <span class="icon">
-                                <i class="fab fa-linkedin"></i>
-                                </span>
-                                <span>Follow</span>
-                            </a>
-                        </span>
-                        <span class="navbar-item">
-                            <a class="button is-primary is-inverted"
-                              href="https://www.facebook.com/starmesh1/">
-                                <span class="icon">
-                                <i class="fab fa-facebook"></i>
-                                </span>
-                                <span>Like</span>
-                            </a>
-                        </span>
-                    </div>
-                </div>
-            </header>
-        </div>
-
-        <!-- Hello, I found you we're presenting at Phi week 2019 about Earth Observation on blockchain? We are probably doing something same already, but we need to find out :) We are doing https://starmesh.xyz/why-blockchain let me know what do you think and probably we can chat more -->
-
-        <div class="hero-body">
-            <div class="container has-text-centered">
-                <img class="center-logo" :src="`${publicPath}img/starmesh_logo_dec_2019.png`" alt="StarMesh logo">
-                <h1 class="title is-spaced">
-                    StarMesh
-                </h1>
-                <h2 class="subtitle">
-                    🛰🌍 Earth Observation meta-vehicle.
-                </h2>
-                <h2 class="subtitle">
-                    Cryptographically verifiable and distributed data layer.
-                </h2>
-                <h3 class="subtitle">
-                  Rich spatial data from various sources, all from one convenient location.
-                </h3>
+          <header class="navbar is-fixed-top">
+            <div class="navbar-brand">
+              <a class="navbar-item" :href="`${publicPath}`">
+                <img class="navbar-logo" :src="`${publicPath}img/starmesh_logo_dec_2019.png`" alt="StarMesh logo">
+                <p>StarMesh</p>
+              </a>
+              <div class="navbar-burger" @click="showNav = !showNav" v-bind:class="{ 'is-active' : showNav }">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
             </div>
+            <div class="navbar-menu" @click="showNav = !showNav" :class="{ 'is-active' : showNav }">
+                <div class="navbar-end">
+                  <router-link class="navbar-item" :to="{ name: 'blockchain', 
+                    hash: '#blockchain-technology' }">
+                    Blockchain
+                    </router-link>
+                  <router-link class="navbar-item" 
+                    :to="{ name: 'blockchain', 
+                    hash: '#provenance-product-integrity-traceablity-automated-certification-auditability-of-data' }">
+                    Traceability
+                  </router-link>
+                  <router-link class="navbar-item" :to="{ name: 'blockchain', 
+                    hash: '#eo-data-access-and-trading' }">
+                    EO Data Rental
+                  </router-link>
+                  <router-link class="navbar-item" :to="{ name: 'blockchain', 
+                    hash: '#New-EO-digital-data-licenses' }">
+                    EO Data licenses
+                  </router-link>
+                  <router-link class="navbar-item" :to="{ name: 'blockchain', 
+                    hash: '#intellectual-property-rights' }">
+                    IPR
+                    </router-link>
+                  <router-link class="navbar-item" :to="{ name: 'dao', 
+                    hash: '#tokenized-networks' }">DAO
+                  </router-link>
+                    <span class="navbar-item">
+                      <a class="button is-primary is-inverted"
+                        href="https://twitter.com/Starmesh1">
+                        <span class="icon">
+                        <i class="fab fa-twitter"></i>
+                        </span>
+                        <span>Follow</span>
+                      </a>
+                    </span>
+                    <span class="navbar-item">
+                      <a class="button is-primary is-inverted"
+                        href="https://www.linkedin.com/company/starmesh1/">
+                        <span class="icon">
+                        <i class="fab fa-linkedin"></i>
+                        </span>
+                        <span>Follow</span>
+                      </a>
+                    </span>
+                    <span class="navbar-item">
+                      <a class="button is-primary is-inverted"
+                        href="https://www.facebook.com/starmesh1/">
+                        <span class="icon">
+                        <i class="fab fa-facebook"></i>
+                        </span>
+                        <span>Like</span>
+                      </a>
+                    </span>
+                </div>
+            </div>
+          </header>
+        </div>
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <img class="center-logo" :src="`${publicPath}img/starmesh_logo_dec_2019.png`" alt="StarMesh logo">
+            <h1 class="title is-spaced">
+                StarMesh
+            </h1>
+            <h2 class="subtitle">
+              Earth Observation meta-vehicle.
+            </h2>
+            <h2 class="subtitle">
+              Cryptographically verifiable and distributed data layer.
+            </h2>
+            <h3 class="subtitle">
+              Rich spatial data from various sources, all from one convenient location.
+            </h3>
+          </div>
         </div>
         <!-- Hero footer: will stick at the bottom -->
         <!-- <div id="discover" class="hero-foot">
@@ -145,6 +144,9 @@ export default class FullheightHeroHeader extends Vue {
   background-color: hsla(0, 0%, 10%, 0.55);
 }
 .navbar-brand {
+  background-color: hsla(0, 0%, 10%, 0.55);
+}
+.navbar-item:focus {
   background-color: hsla(0, 0%, 10%, 0.55);
 }
 .navbar-menu {

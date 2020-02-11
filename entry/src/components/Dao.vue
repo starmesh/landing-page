@@ -23,6 +23,7 @@
       :text="text.third"
       />
     <MooSend />
+    <Twitter />
     <Footer />
   </div>
 </template>
@@ -30,6 +31,7 @@
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
 import MooSend from './MooSend.vue';
+import Twitter from './Twitter.vue';
 import Footer from './Footer.vue';
 import FullheightHeroHeader from './FullheightHeroHeader.vue';
 import FullheightHero from './FullheightHero.vue';
@@ -37,6 +39,7 @@ import FullheightHero from './FullheightHero.vue';
 @Component({
   components: {
     MooSend,
+    Twitter,
     Footer,
     FullheightHeroHeader,
     FullheightHero,

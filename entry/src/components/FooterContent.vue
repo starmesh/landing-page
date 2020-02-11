@@ -2,7 +2,7 @@
   <div class="footerContent">
     <div class="content">
       <div class="columns">
-        <div class="column is-6 is-offset-3">
+        <div class="column is-3 is-offset-3">
         <h1>🛰🌍 Follow Us </h1>
         <span class="social-icons" v-for="item in socials" :key="item.url">
           <a :href="item.url" target="_blank" rel="noopener" class="social-icon" aria-hidden="true">
@@ -10,21 +10,37 @@
           </a>
         </span>
         </div>
+        <div class="column is-3">
+          <span>
+            🛰🌍 StarMesh - source from 
+            <a href="https://github.com/starmesh/landing-page">starmesh/landing-page</a>. 
+            <br>The source code is licensed
+            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-3 is-offset-3">
+        <p>📸 Images or videos released by <a href="https://www.esa.int/ESA_Multimedia/Copyright_Notice_Images">
+        ESA under Creative Commons Attribution-ShareAlike 3.0 IGO (CC BY-SA 3.0 IGO) Licence</a></p>
+      </div>
+      <div class="column is-3">
+        <ul>
+          <span v-for="item in esa_source" :key="item.url">
+          <li>
+            <a :href="item.url" target="_blank" rel="noopener" aria-hidden="true">
+            📸 {{ item.name }}  
+            </a>
+          </li>
+          </span>
+        </ul>
       </div>
     </div>
     <div class="content has-text-centered">
-      <p>
-        🛰🌍 StarMesh - source from <a href="https://github.com/starmesh/landing-page">starmesh/landing-page</a>. 
-        The source code is licensed
-        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. 
-        Follow Us <a href="https://twitter.com/StarMesh1">@StarMesh1</a>.
-      </p>
-      <p>📸 Images or videos released by <a href="https://www.esa.int/ESA_Multimedia/Copyright_Notice_Images">ESA under Creative Commons Attribution-ShareAlike 3.0 IGO (CC BY-SA 3.0 IGO) Licence</a></p>
-      <ul><span v-for="item in esa_source" :key="item.url">
-        <li><a :href="item.url" target="_blank" rel="noopener" aria-hidden="true">
-          📸 {{ item.name }}  
-        </a></li>
-      </span></ul>
+      
+      
+
     </div>
   </div>
 </template>
