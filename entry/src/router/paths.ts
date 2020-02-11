@@ -9,17 +9,17 @@ const paths = [
   {
     path: '/why-blockchain',
     name: 'blockchain',
-    component: () => import(/* webpackChunkName: "about" */ '../components/Blockchain.vue')
+    component: () => import('../components/Blockchain.vue')
   },
   {
     path: '/why-dao',
     name: 'dao',
-    component: () => import(/* webpackChunkName: "about" */ '../components/Dao.vue')
+    component: () => import('../components/Dao.vue')
   },
   {
     path: '/why-ai',
     name: 'ai',
-    component: () => import(/* webpackChunkName: "about" */ '../components/Ai.vue')
+    component: () => import('../components/Ai.vue')
   }
 ]
 

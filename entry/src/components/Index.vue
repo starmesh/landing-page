@@ -67,7 +67,7 @@ export default class Index extends Vue {
       '<b>Starmesh</b> empowers data scientists with an open and cryptographically secure platform to build applications such as compute over private data, and federated learning to unlock the greater potential of AI.',
       '<h3>Data, everywhere</h3>',
       'How do you unlock your economic potential today?',
-      'Seeling your data B2B? - uneffective.',
+      'Selling your data B2B? - uneffective.',
       'Franchise fees? - takes time to scale',
       'Subscription fees? - infrastructure costs and setup',
       'Licensing. - big upfront charges.'
