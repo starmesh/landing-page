@@ -57,7 +57,7 @@ export default class FullheightHero extends Vue {
 .box {
     background-color: hsla(0, 0%, 10%, 0.55);
     color: #fff;
-    text-shadow: 1px 1px 0px #1a1a1a;
+    /* text-shadow: 1px 1px 0px #1a1a1a; */
 }
 
 .content >>> h3 {

@@ -1,6 +1,9 @@
 const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
+  devServer: {
+    port: 8081
+  },
   productionSourceMap: false,
   pwa: {
     name: 'StarMesh EO meta-vehicle',

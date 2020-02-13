@@ -1,5 +1,5 @@
 <template>
-  <div class="index">
+  <div class="blockchain">
     <FullheightHeroHeader />
     <FullheightHero 
       id="blockchain-technology"

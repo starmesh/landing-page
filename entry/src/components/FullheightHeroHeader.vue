@@ -42,6 +42,9 @@
                   <router-link class="navbar-item" :to="{ name: 'dao', 
                     hash: '#tokenized-networks' }">DAO
                   </router-link>
+                  <router-link class="navbar-item" :to="{ name: 'techstack', 
+                    hash: '#tech-we-plan-to-build-on' }">Tech
+                  </router-link>
                     <span class="navbar-item">
                       <a class="button is-primary is-inverted"
                         href="https://twitter.com/Starmesh1">

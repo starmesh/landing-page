@@ -20,6 +20,11 @@ const paths = [
     path: '/why-ai',
     name: 'ai',
     component: () => import('../components/Ai.vue')
+  },
+  {
+    path: '/technical-stack',
+    name: 'techstack',
+    component: () => import('../components/Tech.vue')
   }
 ]
 

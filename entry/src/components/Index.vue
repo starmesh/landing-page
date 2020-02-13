@@ -68,14 +68,14 @@ export default class Index extends Vue {
       '<h3>Data, everywhere</h3>',
       'How do you unlock your economic potential today?',
       'Selling your data B2B? - uneffective.',
-      'Franchise fees? - takes time to scale',
-      'Subscription fees? - infrastructure costs and setup',
+      'Franchise fees? - takes time to scale.',
+      'Subscription fees? - infrastructure costs and setup.',
       'Licensing. - big upfront charges.'
     ],
     second: [
       '<h3>We are trying to aggregate data from known available layers:</h3>',
-      '<b>GTO+</b> - ESA Sentinel, INSAT-3D, JAXA,...',
-      '<b>LEO</b> - Cubesats experiments',
+      '<b>GTO+</b> - ESA Copernicus, USGS, JAXA, INSAT-3D,...',
+      '<b>LEO~</b> - Cubesats experiments',
       '<b>Stratosphere</b> - Stratobaloons and Picobaloons',
       '<b>Ground</b> - UAVs, various IoT sensorics',
       'All under one simple <b>GraphQL</b> interface for your application with payment gateway, in web2.0 speak.',
