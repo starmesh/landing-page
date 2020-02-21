@@ -49,12 +49,12 @@ export default class Dao extends Vue {
   private text = {
     first: [
       '<h3>Tokenized Networks: What is a DAO?</h3>',
-      'DAOs tackle an age-old problem of governance, which political scientists and economists refer to as the principal-agent dilemma. This occurs when the agent of an organization has the power to make decisions on behalf of, or impacting, the principal – another person or entity in the organization.',
+      'DAOs tackle an age-old problem of governance, which political scientists and economists refer to as the principal-agent dilemma. This occurs when the agent of an organization has the power to make decisions on behalf of or impacting, the principal – another person or entity in the organization.',
       'DAO involve a set of people interacting with each other according to a self-enforcing open-source protocol. Keeping the network safe and performing other network tasks is rewarded with the native network tokens. ',
     ],
     firstAA: [
       '<h3>Higher levels of transparency</h3>',
-      'Blockchains and smart contracts hereby <b>reduce transaction costs of management at higher levels of transparency</b>, aligning the interests of all stakeholders by the consensus rules tied to the native token. Individual behaviour is incentivized with a token to collectively contribute to a common goal.',
+      'Blockchains and smart contracts as a result of this <b>reduce transaction costs of management at higher levels of transparency</b>, aligning the interests of all stakeholders by the consensus rules tied to the native token. Individual behaviour is incentivized with a token to contribute to a common goal collectively.',
       'Members of a DAO are not bound together by a legal entity, nor have they entered into any formal legal contracts.',
       'Instead, they are <b>steered by incentives tied to the network tokens</b>, and fully transparent rules that are written into the piece of so ware, which is enforced by machine consensus. There are no bilateral agreements. There is only one governing law – the protocol or smart contract – regulating the behaviour of all network participants.'
     ],

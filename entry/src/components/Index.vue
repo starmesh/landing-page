@@ -68,7 +68,7 @@ export default class Index extends Vue {
       '<h3>Data, everywhere</h3>',
       'How do you unlock your economic potential today?',
       'Selling your data B2B? - uneffective.',
-      'Franchise fees? - takes time to scale.',
+      'Franchise fees? - it takes time to scale.',
       'Subscription fees? - infrastructure costs and setup.',
       'Licensing. - big upfront charges.'
     ],
@@ -83,9 +83,9 @@ export default class Index extends Vue {
     ],
     secondA: [
       '<h3>On-going Partnerships with Value-Added dataset providers</h3>',
-      'We are now working on with partners with <b>solar data with 30 year history</b>.', 
-      'Crowdsourced network of ground stations for receiveing Cubesat data through Ethereum.',
-      'Climate reports and Analytical Platform for Agriculture, crop models with focus in African & Cambodian agriculture.',
+      'We are now working on with partners with <b>solar data with 30-year history</b>.', 
+      'Crowdsourced network of ground stations for receiving Cubesat data through Ethereum.',
+      'Climate reports and Analytical Platform for Agriculture, crop models with a focus in African & Cambodian agriculture.',
       'Smart Agriculture providing Wetness Index, Drought Measure, Urban Greenery, Urban heat island.'
     ],
     third: [
@@ -105,7 +105,7 @@ export default class Index extends Vue {
     ],
     fifth: [
       '<h3>Vision of Starmesh</h3>',
-      'Support of Geospatial and GIS Companies. Remotely sensed data are a key technology for updating many types of GIS data. Accessible GIS data warehouses. GeoSpatial data mining platform. Layer for the next generation of galaxy research.',
+      'Support for Geospatial and GIS Companies. Remotely sensed data are a key technology for updating many types of GIS data. Available GIS data warehouses. GeoSpatial data mining platform. Layer for the next generation of galaxy research.',
       '<h3>Survelliance</h3>',
       'Help to identify Illegal Logging and Charcoal Trafficking. Illegal Unreported and Unregulated Fishing and Illegal Mining.',
       '<h3>Early Disaster Warnings</h3>',

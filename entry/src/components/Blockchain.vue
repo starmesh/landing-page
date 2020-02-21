@@ -135,12 +135,12 @@ export default class Blockchain extends Vue {
       '<h3>Experts agree</h3>',
       'overall that the primary reason for using blockchain is to decentralise, that is, to secure storage and transfer of information by removing the single point of failure, and to promote <b>integrity (immutability) and ownership</b> of data.',
       'Blockchain is also built upon the concept of distributed ownership of the node infrastructure, which is suitable for sharing and handling data more directly and in a more transparent way.',
-      'Therefore users tend to adopt it in order to have <b>more control over the provenance and use of data, to monitor data quality, to guarantee data security, or to build trust in data</b>',
+      'Therefore users tend to adopt it to have <b>more control over the provenance and use of data, to monitor data quality, to guarantee data security, or to build trust in data</b>',
     ],
     second: [
       '<h3>Digital transactions</h3>',
       'As things progress, digital transactions will take place in an increasingly automated way, without intermediaries or brokers, and involving both human and machine interaction and data sharing in the value chain.',
-      'New digital data structures and integration process solutions that allow us to <b>lower the administrative cost of such operations</b> (i.e. contract signing, invoicing and settlements), or share revenues for collaborative inputs, will therefore be breaking new ground for the EO industry.'
+      'New digital data structures and integration process solutions that allow us to <b>lower the administrative cost of such operations</b> (i.e. contract signing, invoicing and settlements), or share revenues for collaborative inputs, will, therefore, be breaking new ground for the EO industry.'
     ],
     secondA: [
       '<h3>EO sensor networks</h3>',
@@ -157,30 +157,30 @@ export default class Blockchain extends Vue {
       'It is also going to become increasingly important to improve the <b>tracking of data processing steps</b>, and the attribution of software elements or data use in a value chain.',
       'On the one hand, verifiable audit trails could be used to <b>ensure the authenticity and quality of data and processing techniques (both software and methodologies)</b>.',
       'This would result in building trust in EO data chain attributes for <b>decision-making purposes</b> (i.e. for security applications, law enforcement, insurance, commodity trading, etc.).',
-      'On the other hand, better data or product administration, as well as the <b>attribution of originality</b>, especially in the open source domain, would improve the overall protection of Intellectual Property Rights in the platform-based economy'
+      'On the other hand, better data or product administration, as well as the <b>attribution of originality</b>, especially in the open-source domain, would improve the overall protection of Intellectual Property Rights in the platform-based economy.'
     ],
     fifth: [
       '<h3>Empower underrepresented users of EO</h3>',
       'Exploring new opportunities to empower underrepresented users of EO is paramount.',
       '<b>This could be achieved by stimulating novel collaborative arrangements, in which knowledge and data sharing, and exchange of value for contributions, is an integral part of the marketplace.</b>',
-      'Such collaborations might involve, on the one hand, professional data brokers, or on the other hand farmers, citizens, or local groups who can take full custody of their data. There is in reality an urgent need for solutions that can help to collect and integrate non-EO data into services, make data reliable and interoperable, register data and contributions, and <b>propose attractive revenue sharing schemes to incentivize collaborations.</b>'
+      'Such collaborations might involve, on the one hand, professional data brokers, or on the other hand farmers, citizens, or local groups who can take full custody of their data. There is, in reality, an urgent need for solutions that can help to collect and integrate non-EO data into services, make data reliable and interoperable, register data and contributions, and <b>propose attractive revenue sharing schemes to incentivise collaborations.</b>'
     ],
     sixth: [
       '<h3>Collaborative arrangements</h3>',
       'Collaborative arrangements could explore the option of monetising or tokenising community inputs (i.e. by providing socioeconomic data, in situ data, etc. as well as proof of contribution).',
-      'They could equally explore <b>monetizing processing capabilities</b> (i.e. hosting data and processing power on the distributed computers).',
-      'This might have the effect of breaking monopolies, or opening existing clusters of expertise to new users and beneficiaries. Such value exchange might also solve one of the critical problems in EO: <b>the availability of reliable, validated and systematic ground truth information as well as datasets for training of AI models and Machine Learning.</b>'
+      'They could equally explore <b> monetising processing capabilities</b> (i.e. hosting data and processing power on the distributed computers).',
+      'This might have the effect of breaking monopolies, or opening existing clusters of expertise to new users and beneficiaries. Such value exchange might also solve one of the critical problems in EO: <b>the availability of reliable, validated and systematic ground truth information as well as datasets for the training of AI models and Machine Learning.</b>'
     ],
     sixthA: [
       '<h3>New EO digital data licenses</h3>',
       'The concept of machine-readable information, which can be independently verified by any of the supply chain actors, provides the opportunity to develop <b>new EO digital data licenses which could be programmable and self- executing based on user profile, identity or task</b> undertaken in the online/platform environment.',
-      'This could open entirely new ways of accessing data such as EO data rental, and new trading schemes such as tokenization and smart contracts.'
+      'This could open entirely new ways of accessing data such as EO data rental, and new trading schemes such as tokenisation and smart contracts.'
     ],
     sixthB: [
       '<h3>Data security and protection</h3>',
       'Finally, data security and protection should be taken into account as a vital element in the future of EO services.','Large repositories and databases of various economic, financial and personal data (including location data) are being made increasingly available, whether open or sold commercially to data analytics or data brokering companies.',
-      'The success of future EO applications will depend on access to this wealth of digital data. At the same time, protection of sensitive non-EO databases from theft or interference, must be ensured, and in accordance with regulations such as EU GDPR (the EU General Data Protection Regulation).',
-      '<b>There is therefore a need to demonstrate that the benefits of sharing sensitive data outweigh the risks, and that there are technological solutions for data protection that lower those risks while providing high analytical utility.</b> This need also reveals the demand for privacy- focussed and data security-driven applications, which could enable large groups of data to be simultaneously proprietary (or private), secured and shareable.'
+      'The success of future EO applications will depend on access to this wealth of digital data. At the same time, protection of sensitive non-EO databases from theft or interference must be ensured, and following regulations such as EU GDPR (the EU General Data Protection Regulation).',
+      '<b>There is, therefore, a need to demonstrate that the benefits of sharing sensitive data outweigh the risks and that there are technological solutions for data protection that lower those risks while providing high analytical utility.</b> This need also reveals the demand for privacy- focussed and data security-driven applications, which could enable large groups of data to be simultaneously proprietary (or private), secured and shareable.'
     ],
     seven: [
       '<h3>Product Integrity, traceability, automated certification and auditability</h3>',
@@ -201,12 +201,12 @@ export default class Blockchain extends Vue {
     sevenC: [
       '<h3>Intellectual Property Rights (IPR)</h3>',
       'The use case reflects DLT applications for copyright protection.',
-      'Existing examples from other industry domains indicate that authors and creators can publish works on blockchain creating a <b>quasi- immutable record of initial ownership, and encode smart contract functionality to license the use of their works.</b>',
-      'For the EO sector the key point of value-adding interest is the ability to register copyright products in online registers, track the use of IP elements (ie. software and data products) and develop new ways of attributing use, and exchange of value for the use of copyright-protected content.'
+      'Existing examples from other industry domains indicate that authors and creators can publish works on blockchain creating a <b>quasi-immutable record of initial ownership, and encode smart contract functionality to license the use of their works.</b>',
+      'For the EO sector, the key point of value-adding interest is the ability to register copyright products in online registers, track the use of IP elements (ie. software and data products) and develop new ways of attributing use, and exchange of value for the use of copyright-protected content.'
     ],
     sevenD: [
       '<h3>Incentives in community collaborations</h3>',
-      'Blockchain general utility is primarily revealed in situations when parties that do not trust each other have to work and collaborate together.',
+      'Blockchain general utility is primarily revealed in situations when parties that do not trust each other have to work and collaborate.',
       'This use case is based on blockchain-specific functions that can enhance trust frameworks among the participants in the collaborative networks.',
       'Blockchain encourages <b>community collaboration without intermediaries, while protecting the ownership of encrypted/shared data</b>, or software elements, and providing accountability for its use, and maintaining integrity of the resource pool. Devising frameworks for interacting among network participants via a tokenised system can also facilitate the ingestion of verifiable data sources to the pool of shareable resources, and revenue sharing schemes.'
     ],

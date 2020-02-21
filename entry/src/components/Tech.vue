@@ -48,9 +48,9 @@ import FullheightHero from './FullheightHero.vue';
 export default class Tech extends Vue { 
   private text = {
     first: [
-      '<h3>Decentralized World</h3>',
-      'We believe using decentalized tech should be basestone of our tech.',
-      'We should be picky on technology what we are using and how we will sell it to others as our validators, investors and developers are being responsible.',
+      '<h3>Decentralised World</h3>',
+      'We believe using decentralised tech should be base stone of our tech.',
+      'We should be picky about technology what we are using and how we will sell it to others as our validators, investors and developers are responsible.',
     ],
     firstAA: [
       '<h3>Substrate / Polkadot</h3>',

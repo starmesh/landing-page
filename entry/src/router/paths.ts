@@ -25,6 +25,11 @@ const paths = [
     path: '/technical-stack',
     name: 'techstack',
     component: () => import('../components/Tech.vue')
+  },
+  {
+    path: '/marketplace',
+    name: 'marketplace',
+    component: () => import('../components/Marketplace.vue')
   }
 ]
 
