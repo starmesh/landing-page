@@ -2,7 +2,7 @@
   <div class="tech">
     <FullheightHeroHeader />
     <FullheightHero 
-      id="Who We Are"
+      id="who-we-are"
       img="Korean_Peninsula"
       :text="text.first"
       />

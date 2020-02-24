@@ -18,6 +18,8 @@ const router = new VueRouter({
 
       return position
     }
+    
+    return { x: 0, y: 0 }
   }
 })
 
