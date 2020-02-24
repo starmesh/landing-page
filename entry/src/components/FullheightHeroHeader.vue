@@ -48,6 +48,9 @@
                   <router-link class="navbar-item" :to="{ name: 'techstack', 
                     hash: '#tech-we-plan-to-build-on' }">Tech
                   </router-link>
+                  <router-link class="navbar-item" :to="{ name: 'team', 
+                    hash: '#who-we-are' }">Team
+                  </router-link>
                     <span class="navbar-item">
                       <a class="button is-primary is-inverted"
                         href="https://twitter.com/Starmesh1">

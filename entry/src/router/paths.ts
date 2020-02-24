@@ -30,6 +30,11 @@ const paths = [
     path: '/marketplace',
     name: 'marketplace',
     component: () => import('../components/Marketplace.vue')
+  },
+  {
+    path: '/team',
+    name: 'team',
+    component: () => import('../components/Team.vue')
   }
 ]
 

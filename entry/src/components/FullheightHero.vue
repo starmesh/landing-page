@@ -63,4 +63,7 @@ export default class FullheightHero extends Vue {
 .content >>> h3 {
     color: aliceblue;
 } 
+.content >>> h1 {
+    color: aliceblue;
+} 
 </style>
