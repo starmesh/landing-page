@@ -52,7 +52,7 @@
       :text="text.sixthB"
       />
     <FullheightHero
-      id="provenance-product-integrity-traceablity-automated-certification-auditability-of-data"
+      id="traceablity"
       img="Zambezi_Delta_diversity"
       :text="text.seven"
       />

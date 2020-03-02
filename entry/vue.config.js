@@ -15,7 +15,7 @@ const routerPaths = [
   '/',
   '/why-dao',
   '/marketplace',
-  'technical-stack'
+  '/technical-stack'
 ];
 
 module.exports = {

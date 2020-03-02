@@ -24,16 +24,12 @@
                     </router-link>
                   <router-link class="navbar-item" 
                     :to="{ name: 'blockchain', 
-                    hash: '#provenance-product-integrity-traceablity-automated-certification-auditability-of-data' }">
+                    hash: '#traceablity' }">
                     Traceability
                   </router-link>
                   <router-link class="navbar-item" :to="{ name: 'blockchain', 
                     hash: '#eo-data-access-and-trading' }">
                     EO Data Rental
-                  </router-link>
-                  <router-link class="navbar-item" :to="{ name: 'blockchain', 
-                    hash: '#New-EO-digital-data-licenses' }">
-                    EO Data licenses
                   </router-link>
                   <router-link class="navbar-item" :to="{ name: 'blockchain', 
                     hash: '#intellectual-property-rights' }">
@@ -44,6 +40,9 @@
                   </router-link>
                   <router-link class="navbar-item" :to="{ name: 'marketplace', 
                     hash: '#data-is-the-new-oil' }">Marketplace
+                  </router-link>
+                  <router-link class="navbar-item" :to="{ name: 'oracle', 
+                    hash: '#objective-data-feeds' }">Oracle
                   </router-link>
                   <router-link class="navbar-item" :to="{ name: 'techstack', 
                     hash: '#tech-we-plan-to-build-on' }">Tech

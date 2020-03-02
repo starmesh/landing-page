@@ -1,10 +1,8 @@
-import Index from '@/components/Index.vue'; 
-
 const paths = [
   {
     path: '/',
     name: 'index',
-    component: Index
+    component: () => import('../components/Index.vue')
   },
   {
     path: '/why-blockchain',
@@ -30,6 +28,11 @@ const paths = [
     path: '/marketplace',
     name: 'marketplace',
     component: () => import('../components/Marketplace.vue')
+  },
+  {
+    path: '/why-oracles',
+    name: 'oracle',
+    component: () => import('../components/Oracle.vue')
   },
   {
     path: '/team',
